@@ -1,0 +1,76 @@
+/*  섹션  */
+/* 컨테이너 */
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 70vw;
+}
+.big-container {
+    background-color: #fafafa;
+    height: 30vw;
+    max-width: 600px;
+    width: 60vw;
+    padding: 3% 10% 3% 5%;
+    margin-left: 0px;
+    border-radius: 0px 2vw 2vw 0px;
+    text-align: left;
+    margin-bottom: 8vh;
+    margin-top: 15vh;
+}
+/* 지그제그로 큰 컨테이너를 배치하면 어떻까 했으나 구현 실패 */
+.big-container-reverse {
+    background-color: #fafafa;
+    height: 30vw;
+    max-width: 600px;
+    width: 60vw;
+    padding: 3% 10% 3% 5%;
+    margin-right: 0px;
+    border-radius: 2vw 0px 0px 2vw;
+    text-align: left;
+    margin-bottom: 8vh;
+    margin-top: 15vh;
+    position: static;
+    right: 0px;
+}
+#small-containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vh 2vw;
+}
+.small-container {
+    background-color: #fafafa;
+    height: 70vh;
+    width: 30vw;
+    max-width: 340px;
+    min-width: 300px;
+    max-height: 560px;
+    padding: 1em;
+    border-radius: 1vw;
+    text-align: left;
+    margin: 0.9em;
+}
+#small-containers {
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+}
+.question-overview {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 3vw;
+}
+.question-detail {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 3vw;
+}
+.chart-box {
+    width: 50vw;
+    height: inherit;
+    padding-left: 5vw;
+}

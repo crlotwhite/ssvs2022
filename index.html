@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Report of SVS 2022 </title>
-    <link rel="stylesheet" href="style.css">
+    <!--  CSS  -->
+<!--    <link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/container.css">
+        <link rel="stylesheet" href="css/typography.css">
+        <link rel="stylesheet" href="css/line.css">
+    <!--  JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
 </head>
 <body>
+<!-- Nav bar -->
 <nav id="navbar" class="sticky">
     <a href="">Overview</a>
     <hr class="menu-split" >
@@ -33,9 +43,10 @@
     <hr class="menu-split">
     <a href="">Feedbacks</a>
 </nav>
-<header class="frame-main d-flex">
-    <div class="container common-shadow">
-        <div id="logo-box" class="d-flex">
+<!-- Header Section -->
+<header class="">
+    <div class="container big-shadow">
+        <div id="logo-box">
             <span>2022</span>
             <span>Singing Voice Synthesis</span>
             <span>Survey</span>
@@ -45,8 +56,9 @@
         </p>
     </div>
 </header>
-<section id="overview" class="frame-main">
-    <div class="big-container common-shadow">
+<!-- Overview Section -->
+<section id="overview" class="">
+    <div class="big-container big-shadow">
         <h1>Overview</h1>
         <hr>
         <p class="normal-text">
@@ -60,34 +72,34 @@
         </p>
     </div>
     <div id="small-containers">
-        <div class="small-container common-shadow">
-            <h2>contents 1</h2>
+        <div class="small-container small-shadow">
+            <span class="topic-name">contents 1</span>
             <p class="small-text">
                 Learning to code online increased from 60% to 70% year over year.
 
                 Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications.
             </p>
-
         </div>
-        <div class="small-container common-shadow">
+        <div class="small-container small-shadow">
             contents 2
         </div>
-        <div class="small-container common-shadow">
+        <div class="small-container small-shadow">
             contents 3
         </div>
-        <div class="small-container common-shadow">
+        <div class="small-container small-shadow">
             contents 4
         </div>
-        <div class="small-container common-shadow">
+        <div class="small-container small-shadow">
             contents 5
         </div>
-        <div class="small-container common-shadow">
+        <div class="small-container small-shadow">
             contents 6
         </div>
     </div>
 </section>
-<section id="about" class="frame-main">
-    <div class="big-container common-shadow">
+<!-- User Trends Section-->
+<section id="about" class="">
+    <div class="big-container big-shadow">
         <h1>Overview</h1>
         <hr>
         <p class="normal-text">
@@ -100,12 +112,49 @@
             Read on for more great insights about the attitudes, tools, and environments that are shaping the art and practice of software today.
         </p>
     </div>
-    <hr class="line-under-big-container">
+    <hr class="line-big">
+    <div class="sub-section">
+        <div class="question-overview">
+            <h4>User Trends</h4>
+            <h2>Education</h2>
+            <p>Most developers (87%) have a post-secondary education, having some college or more.</p>
+        </div>
+        <hr class="line-small">
+        <div class="question-detail">
+            <h3>Educational attainment</h3>
+            <p>38% of those learning to code already have a degree, learning doesn’t have to stop after you graduate.</p>
+            <p>70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.</p>
+        </div>
+        <hr class="line-small">
+        <div class="chart-box">
+            <canvas id="myChart" ></canvas>
+        </div>
+        <script type="text/javascript">
+            const ctx = document.getElementById('myChart');
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                    datasets: [{
+                        label: '# of Votes',
+                        data: [12, 19, 3, 5, 2, 3],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+    </div>
+    <hr class="line-big">
 </section>
 
-<section id="user-trends">
-
-</section>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"></script>
 </body>
 </html>

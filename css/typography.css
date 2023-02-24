@@ -1,0 +1,41 @@
+/*  섹션  */
+/* 타이포그라피 */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h4 {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.topic-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.normal-text {
+    font-size: 1.5vw;
+}
+.small-text {
+    font-size: 1.3vw;
+}
+/* 선 밖으로 안나가게 보정 */
+.question-overview > p {
+    width: 60vw;
+}
+.question-detail > p {
+    width: 60vw;
+}

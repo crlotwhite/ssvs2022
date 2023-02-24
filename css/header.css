@@ -1,0 +1,38 @@
+/* 헤더 관련 */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+header > .container {
+    background-color: #fafafa;
+    height: 37%;
+    width: 57%;
+    max-width: 450px;
+    margin-left: 5vw;
+    border-radius: 2vw;
+    padding: 2rem;
+}
+#logo-box {
+    display: flex;
+    flex-direction: column;
+}
+#logo-box > span:first-child {
+    font-weight: bold;
+    font-size: 3vw;
+}
+#logo-box > span:nth-child(2) {
+    font-weight: bold;
+    font-size: 2vw;
+}
+#logo-box > span:nth-child(3) {
+    font-weight: bold;
+    font-size: 3vw;
+}
+header > .container > p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1vw;
+}

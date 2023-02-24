@@ -1,0 +1,15 @@
+/* 가로선 */
+.line-big {
+    border: 0px;
+    background-color: #fafafa;
+    height: 3px;
+    width: 60vw;
+    margin: 3rem;
+}
+.line-small {
+    border: 0px;
+    background-color: #fafafa;
+    height: 1px;
+    width: 60vw;
+    margin: 2rem;
+}
