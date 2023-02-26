@@ -8,85 +8,208 @@ const strings = {
                     "Learning to code online increased from 60% to 70% year over year.",
                     "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
                 ]
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
             }
         ],
         section: [
             {
                 name: "Overview",
-                paragraphs: "The questions we ask in our annual survey help us improve the Stack Overflow community and the platform that serves them.\nThe challenge and opportunity for us is to continue expanding and improving our ability to help all developers and to make them feel welcome in our community.\nRead on for more great insights about the attitudes, tools, and environments that are shaping the art and practice of software today.",
+                paragraphs: [
+                    "The questions we ask in our annual survey help us improve the Stack Overflow community and the platform that serves them.",
+                    "The challenge and opportunity for us is to continue expanding and improving our ability to help all developers and to make them feel welcome in our community.",
+                    "Read on for more great insights about the attitudes, tools, and environments that are shaping the art and practice of software today."
+                ],
             },
             {
-                name: "Overview",
-                paragraphs: "The questions we ask in our annual survey help us improve the Stack Overflow community and the platform that serves them.\nThe challenge and opportunity for us is to continue expanding and improving our ability to help all developers and to make them feel welcome in our community.\nRead on for more great insights about the attitudes, tools, and environments that are shaping the art and practice of software today.",
+                name: "User Trends",
+                paragraphs: [
+                    "Let's get to know the Vocaloid fandom."
+                ],
                 subSection: [
                     {
-                        name: "Education",
-                        overall: "Most developers (87%) have a post-secondary education, having some college or more.",
-                        subName: "Educational attainment",
-                        paragraphs: "38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.\n70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.",
+                        name: "Gender",
+                        overall: "It showed that the ratio of men and women and the third sex was about 30% very equal.",
+                        subName: "The gender ratio of a fandom",
+                        paragraphs: [
+                            "The 37 respondents identified themselves as male, and another 38 respondents identified themselves as female.", 
+                            "Also, 16 respondents said they were neither, and the remaining 5 respondents were reluctant to identify their sex."
+                        ],
                         chartId: "chart1",
-                        questionText: "What is your sex?"
                     },
                     {
-                        name: "Education",
-                        overall: "Most developers (87%) have a post-secondary education, having some college or more.",
-                        subName: "Educational attainment",
-                        paragraphs: "38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.\n70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.",
+                        name: "The favourite software",
+                        overall: "Vocaloid was the most popular choice.",
+                        subName: "Which is the most preferred?",
+                        paragraphs: [
+                            "Synthesizer V was the second most popular with 52, followed by UTAU/OpenUTAU with 51, showing that it is still very popular.",
+                            "CeVIO/CeVIO AI/Voisona also got 29, and DeppVocal2 also showed its influence with 16."
+                        ],
                         chartId: "chart2",
-                        questionText: "What is your sex?"
                     },
-                    {
-                        name: "Education",
-                        overall: "Most developers (87%) have a post-secondary education, having some college or more.",
-                        subName: "Educational attainment",
-                        paragraphs: "38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.\n70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.",
-                        chartId: "chart3",
-                        questionText: "What is your sex?"
-                    },
-                    {
-                        name: "Education",
-                        overall: "Most developers (87%) have a post-secondary education, having some college or more.",
-                        subName: "Educational attainment",
-                        paragraphs: "38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.\n70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.",
-                        chartId: "chart4",
-                        questionText: "What is your sex?"
-                    },
-                    {
-                        name: "Education",
-                        overall: "Most developers (87%) have a post-secondary education, having some college or more.",
-                        subName: "Educational attainment",
-                        paragraphs: "38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.\n70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.",
-                        chartId: "chart5",
-                        questionText: "What is your sex?"
-                    },
-                    {
-                        name: "Education",
-                        overall: "Most developers (87%) have a post-secondary education, having some college or more.",
-                        subName: "Educational attainment",
-                        paragraphs: "38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.\n70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.",
-                        chartId: "chart6",
-                        questionText: "What is your sex?"
-                    },
-                    {
-                        name: "Education",
-                        overall: "Most developers (87%) have a post-secondary education, having some college or more.",
-                        subName: "Educational attainment",
-                        paragraphs: "38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.\n70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.",
-                        chartId: "chart7",
-                        questionText: "What is your sex?"
-                    },
+                    
                 ]
             },
         ],
+        chart: {
+            chart1: {
+                question: "What is your sex?",
+                labels: [
+                    "Male", 
+                    "Female", 
+                    "Other", 
+                    "I don't want to reveal my gender."
+                ]
+            },
+            chart2: {
+                question: "What is your favorite singing voice synthesis software? (Up to 3)",
+                labels: [
+                    "Vocaloid",
+                    "CeVIO/CeVIO Ai/VoiSona",
+                    "Synthesizer V",
+                    "UTAU/OpenUTAU",
+                    "NEUTRINO",
+                    "NNSVS/ENUNU",
+                    "VOCALINA",
+                    "DeepVocal",
+                    "Piapro Studio NT",
+                    "ACE Studio"
+                ]
+            },
+        }
     },
     jp: {
 
     },
     kr: {
         headerText: "2022년 12월, 전세계 커뮤니티로부터 96 응답자가 보컬로이드 팬덤에서의 자신 및 소프트웨어 사용 경험, 그리고 인공지능 기술에 대한 의견을 공유해주었습니다.",
-        section1: {
-            name: "H1",
-            headerParagraphs: "The questions we ask in our annual survey help us improve the Stack Overflow community and the platform that serves them.\nThe challenge and opportunity for us is to continue expanding and improving our ability to help all developers and to make them feel welcome in our community.\nRead on for more great insights about the attitudes, tools, and environments that are shaping the art and practice of software today.",
-        },
+        overallCard: [
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "Learning to code online increased from 60% to 70% year over year.",
+                    "Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications."
+                ]
+            }
+        ],
+        section: [
+            {
+                name: "Overview",
+                paragraphs: [
+                    "The questions we ask in our annual survey help us improve the Stack Overflow community and the platform that serves them.",
+                    "The challenge and opportunity for us is to continue expanding and improving our ability to help all developers and to make them feel welcome in our community.",
+                    "Read on for more great insights about the attitudes, tools, and environments that are shaping the art and practice of software today."
+                ],
+            },
+            {
+                name: "User Trends",
+                paragraphs: [
+                    "보컬로이드 팬덤에 대해서 알아보자"
+                ],
+                subSection: [
+                    {
+                        name: "성별",
+                        overall: "남성과 여성 그리고 제3의 성의 비례가 대략 30% 굉장히 균등함을 보여주었습니다.",
+                        subName: "팬덤의 성비",
+                        paragraphs: [
+                            "37명의 응답자가 자신을 남성이라고 밝혔으며, 또 다른 38명의 답변자는 자신이 여성이라고 밝혔습니다.", 
+                            "또한 16명의 응답자는 자신이 어느 쪽도 아니라고 했고, 나머지 5명의 답변자는 자신의 성별을 밝히기를 꺼려 했습니다."
+                        ],
+                        chartId: "chart1",
+                    },
+                    {
+                        name: "가장 좋아하는 소프트웨어",
+                        overall: "명불허전 보컬로이드가 가장 많은 선택을 받았다.",
+                        subName: "어떤 것이 가장 선호되는가?",
+                        paragraphs: [
+                            "Synthesizer V가 두 번째로 많은 선택을 받았으며, 그다음으로 UTAU/OpenUTAU가 51명의 선택을 받으며, 여전히 인기가 많음을 보여주고 있다.",
+                            "또한 CeVIO/CeVIO AI/Voisona도 29명의 선택을 받았으며, 마지막으로 DeppVocal2 또한 16명의 선택을 받으며 영향력을 보여주었다."
+                        ],
+                        chartId: "chart2",
+                    },
+                    
+                ]
+            },
+        ],
+        chart: {
+            chart1: {
+                question: "당신의 성별은 무엇입니까?",
+                labels: [
+                    "남성", 
+                    "여성", 
+                    "그 외", 
+                    "성별을 밝히고 싶지 않음"
+                ]
+            },
+            chart2: {
+                question: "좋아하는 가창 합성 엔진이 무엇입니까? (3개까지)",
+                labels: [
+                    "Vocaloid",
+                    "CeVIO/CeVIO Ai/VoiSona",
+                    "Synthesizer V",
+                    "UTAU/OpenUTAU",
+                    "NEUTRINO",
+                    "NNSVS/ENUNU",
+                    "VOCALINA",
+                    "DeepVocal",
+                    "Piapro Studio NT",
+                    "ACE Studio"
+                ]
+            }
+        }
     }
 }

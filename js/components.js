@@ -29,7 +29,7 @@ class SectionHeader extends HTMLElement {
         this.appendChild(line);
         
         // add paragraphs
-        const paragraphs = sectionStrings.paragraphs.split('\n');
+        const paragraphs = sectionStrings.paragraphs;
         for (let i=0;i<paragraphs.length;i++) {
             const p = document.createElement("p");
             p.innerHTML = paragraphs[i];
@@ -114,7 +114,7 @@ class SubSection extends HTMLElement {
         detail.appendChild(sectionSubName);
 
         // add paragraphs
-        const paragraphs = subSectionStrings.paragraphs.split('\n');
+        const paragraphs = subSectionStrings.paragraphs;
         for (let i=0;i<paragraphs.length;i++) {
             const p = document.createElement("p");
             p.innerHTML = paragraphs[i];
@@ -139,13 +139,8 @@ class SubSection extends HTMLElement {
         // append chart code
         const chartScript = document.createElement("script");
         chartScript.type = "text/javascript";
-        chartScript.innerHTML = `${subSectionStrings.chartId}("${subSectionStrings.chartId}");`
+        chartScript.innerHTML = `${subSectionStrings.chartId}("${subSectionStrings.chartId}", "${lang}");`
         subSection.appendChild(chartScript);
-
-        const questionText = document.createElement("p");
-        questionText.innerHTML = subSectionStrings.questionText;
-        questionText.classList.add("question-text");
-        subSection.appendChild(questionText);
     }
 
     static get observedAttributes() {
