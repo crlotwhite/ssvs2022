@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <title>Report of SVS 2022 </title>
     <!--  CSS  -->
-<!--    <link rel="stylesheet" href="style.css">-->
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/common.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/container.css">
-        <link rel="stylesheet" href="css/typography.css">
-        <link rel="stylesheet" href="css/line.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/line.css">
     <!--  JS  -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
-    <script type="text/javascript">
-        window.addEventListener("resize", (event) => {
-            drawChart();
-        });
-    </script>
     <script src="js/strings.js"></script>
+    <script src="js/charts.js"></script>
     <script src="js/components.js"></script>
 </head>
 <body>
@@ -50,140 +45,29 @@
     <hr class="menu-split">
     <a href="">Feedbacks</a>
 </nav>
-<!-- Header Section -->
-<header class="">
-    <div class="container big-shadow">
-        <div id="logo-box">
-            <span>2022</span>
-            <span>Singing Voice Synthesis</span>
-            <span>Survey</span>
-        </div>
-        <p>
-            In December 2022, 96 respondents from various communities around the world shared their views on Vocaloid fandom tendencies, software experience, and artificial intelligence technology.
-        </p>
-    </div>
-</header>
+<first-header lang="en"></first-header>
 <!-- Overview Section -->
 <section id="overview" class="">
-    <div class="big-container big-shadow">
-        <h1>Overview</h1>
-        <hr>
-        <p class="normal-text">
-            The questions we ask in our annual survey help us improve the Stack Overflow community and the platform that serves them.
-        </p>
-        <p class="normal-text">
-        The challenge and opportunity for us is to continue expanding and improving our ability to help all developers and to make them feel welcome in our community.
-        </p>
-        <p class="normal-text">
-        Read on for more great insights about the attitudes, tools, and environments that are shaping the art and practice of software today.
-        </p>
-    </div>
+    <section-header sid="0" lang="en"></section-header>
     <div id="small-containers">
-        <div class="small-container small-shadow">
-            <span class="topic-name">User Trends</span>
-            <p class="small-text">
-                Learning to code online increased from 60% to 70% year over year.
-
-                Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications.
-            </p>
-        </div>
-        <div class="small-container small-shadow">
-            contents 2
-        </div>
-        <div class="small-container small-shadow">
-            contents 3
-        </div>
-        <div class="small-container small-shadow">
-            contents 4
-        </div>
-        <div class="small-container small-shadow">
-            contents 5
-        </div>
+        <overall-card cid="0" lang="en"></overall-card>
+        <overall-card cid="0" lang="en"></overall-card>
+        <overall-card cid="0" lang="en"></overall-card>
+        <overall-card cid="0" lang="en"></overall-card>
+        <overall-card cid="0" lang="en"></overall-card>
     </div>
 </section>
 <!-- User Trends Section-->
-<section id="about" class="">
-    <div class="big-container big-shadow">
-        <h1>Overview</h1>
-        <hr>
-        <p class="normal-text">
-            The questions we ask in our annual survey help us improve the Stack Overflow community and the platform that serves them.
-        </p>
-        <p class="normal-text">
-            The challenge and opportunity for us is to continue expanding and improving our ability to help all developers and to make them feel welcome in our community.
-        </p>
-        <p class="normal-text">
-            Read on for more great insights about the attitudes, tools, and environments that are shaping the art and practice of software today.
-        </p>
-    </div>
-    <!-- divide question   -->
-    <hr class="line-big">
-    <div class="sub-section">
-        <div class="question-overview">
-            <h4>User Trends</h4>
-            <h2>Education</h2>
-            <p>Most developers (87%) have a post-secondary education, having some college or more.</p>
-        </div>
-        <hr class="line-small">
-        <div class="question-detail">
-            <h3>Educational attainment</h3>
-            <p>38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.</p>
-            <p>70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.</p>
-        </div>
-        <hr class="line-small">
-        <div class="chart-box">
-            <canvas id="myChart" ></canvas>
-        </div>
-        <script type="text/javascript" src="js/drawChart.js"></script>
-        <p class="question-text">What is your sex?</p>
-    </div>
-    <!-- divide question   -->
-    <hr class="line-big">
-    <div class="sub-section">
-        <div class="question-overview">
-            <h4>User Trends</h4>
-            <h2>Education</h2>
-            <p>Most developers (87%) have a post-secondary education, having some college or more.</p>
-        </div>
-        <hr class="line-small">
-        <div class="question-detail">
-            <h3>Educational attainment</h3>
-            <p>38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.</p>
-            <p>70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.</p>
-        </div>
-        <hr class="line-small">
-        <div class="chart-box">
-            <canvas id="myChart1" ></canvas>
-        </div>
-        <script type="text/javascript" src="js/drawChart.js"></script>
-        <p class="question-text">What is your sex?</p>
-    </div>
-    <!-- divide question   -->
-    <hr class="line-big">
-    <div class="sub-section">
-        <div class="question-overview">
-            <h4>User Trends</h4>
-            <h2>Education</h2>
-            <p>Most developers (87%) have a post-secondary education, having some college or more.</p>
-        </div>
-        <hr class="line-small">
-        <div class="question-detail">
-            <h3>Educational attainment</h3>
-            <p>38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.</p>
-            <p>70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.</p>
-        </div>
-        <hr class="line-small">
-        <div class="chart-box">
-            <canvas id="myChart2" ></canvas>
-        </div>
-        <script type="text/javascript" src="js/drawChart.js"></script>
-        <p class="question-text">What is your sex?</p>
-    </div>
-</section>
-<!-- <custom-input></custom-input> -->
 <section>
-    <section-header sid="0" lang="en"></section-header>
-    <sub-section sid="0" ssid="0" lang="en"></sub-section>
+    <section-header sid="1" lang="en"></section-header>
+    <sub-section sid="1" ssid="0" lang="en"></sub-section>
+    <sub-section sid="1" ssid="1" lang="en"></sub-section>
+    <sub-section sid="1" ssid="2" lang="en"></sub-section>
+    <sub-section sid="1" ssid="3" lang="en"></sub-section>
+    <sub-section sid="1" ssid="4" lang="en"></sub-section>
+    <sub-section sid="1" ssid="5" lang="en"></sub-section>
+    <sub-section sid="1" ssid="6" lang="en"></sub-section>
 </section>
+
 </body>
 </html>

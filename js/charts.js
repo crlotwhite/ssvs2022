@@ -19,8 +19,8 @@
 //     }
 // });
 
-function drawChart() {
-    const ctx = document.getElementById('myChart');
+function chart1(canvasId) {
+    const ctx = document.getElementById(canvasId);
 
     new Chart(ctx, {
         type: 'bar',
@@ -41,4 +41,3 @@ function drawChart() {
         }
     });
 }
-drawChart();

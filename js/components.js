@@ -28,11 +28,11 @@ class SectionHeader extends HTMLElement {
         const line = document.createElement("hr");
         this.appendChild(line);
         
-        // add paraghraphs
-        const paraghraphs = sectionStrings.paragraphs.split('\n');
-        for (let i=0;i<paraghraphs.length;i++) {
+        // add paragraphs
+        const paragraphs = sectionStrings.paragraphs.split('\n');
+        for (let i=0;i<paragraphs.length;i++) {
             const p = document.createElement("p");
-            p.innerHTML = paraghraphs[i];
+            p.innerHTML = paragraphs[i];
             p.classList.add("normal-text");
             this.appendChild(p);
         }
@@ -113,7 +113,7 @@ class SubSection extends HTMLElement {
         sectionSubName.innerHTML = subSectionStrings.subName;
         detail.appendChild(sectionSubName);
 
-        // add paraghraphs
+        // add paragraphs
         const paraghraphs = subSectionStrings.paragraphs.split('\n');
         for (let i=0;i<paraghraphs.length;i++) {
             const p = document.createElement("p");
@@ -139,7 +139,7 @@ class SubSection extends HTMLElement {
         // append chart code
         const chartScript = document.createElement("script");
         chartScript.type = "text/javascript";
-        chartScript.src = `js/${subSectionStrings.chartSrc}.js`;
+        chartScript.innerHTML = `${subSectionStrings.chartId}("${subSectionStrings.chartId}");`
         subSection.appendChild(chartScript);
 
         const questionText = document.createElement("p");
@@ -159,3 +159,113 @@ class SubSection extends HTMLElement {
     }
 }
 customElements.define("sub-section", SubSection);
+
+class OverallCard extends HTMLElement {
+    render() {
+        // clear first
+        this.innerHTML = '';
+
+        // get strings from
+        const lang = this.getAttribute("lang");
+        let currentLanguageStrings = strings["en"];
+
+        if (lang != null) {
+            currentLanguageStrings = strings[lang];
+        }
+
+        // get card id
+        const cardId = parseInt(this.getAttribute("cid"));
+        const cardStrings = currentLanguageStrings.overallCard[cardId];
+
+        // add class
+        this.classList.add("small-container");
+        this.classList.add("small-shadow");
+
+        // add topic name
+        const topicName = document.createElement("span");
+        topicName.classList.add("topic-name");
+        topicName.innerHTML = cardStrings.name;
+        this.appendChild(topicName);
+
+        // add paragraphs
+        const paragraphs = cardStrings.paragraphs;
+        for (let i=0;i<paragraphs.length;i++) {
+            const p = document.createElement("p");
+            p.classList.add("small-text");
+            p.innerHTML = paragraphs[i];
+            this.appendChild(p);
+        }
+    }
+
+    static get observedAttributes() {
+        return ["lang"];
+    }
+
+    connectedCallback() {
+        this.render();
+    }
+    attributeChangedCallback() {
+        this.render();
+    }
+}
+customElements.define('overall-card', OverallCard);
+
+class FirstHeader extends HTMLElement {
+    render() {
+        // clear first
+        this.innerHTML = '';
+
+        // get strings from
+        const lang = this.getAttribute("lang");
+        let currentLanguageStrings = strings["en"];
+
+        if (lang != null) {
+            currentLanguageStrings = strings[lang];
+        }
+
+        // add id
+        this.id = "header";
+
+        // add container
+        const container = document.createElement("div");
+        container.classList.add("container");
+        container.classList.add("big-shadow");
+        this.appendChild(container);
+
+        // add logo box
+        const logoBox = document.createElement("div");
+        logoBox.id = "logo-box";
+        container.appendChild(logoBox);
+
+        // add logo box texts
+        const text = ["2022", "Singing Voice Synthesis", "Survey"];
+        for (let i=0;i<text.length;i++) {
+            const span = document.createElement("span");
+            span.innerHTML = text[i];
+            logoBox.appendChild(span);
+        }
+
+        // add paragraph
+        const headerParagraph = document.createElement("p");
+        headerParagraph.innerHTML = currentLanguageStrings.headerText;
+        container.appendChild(headerParagraph);
+    }
+
+    static get observedAttributes() {
+        return ["lang"];
+    }
+
+    connectedCallback() {
+        this.render();
+    }
+    attributeChangedCallback() {
+        this.render();
+    }
+}
+customElements.define('first-header', FirstHeader);
+
+// get all keys
+// for (var key in a) {
+//     console.log(key);
+// }
+
