@@ -114,10 +114,10 @@ class SubSection extends HTMLElement {
         detail.appendChild(sectionSubName);
 
         // add paragraphs
-        const paraghraphs = subSectionStrings.paragraphs.split('\n');
-        for (let i=0;i<paraghraphs.length;i++) {
+        const paragraphs = subSectionStrings.paragraphs.split('\n');
+        for (let i=0;i<paragraphs.length;i++) {
             const p = document.createElement("p");
-            p.innerHTML = paraghraphs[i];
+            p.innerHTML = paragraphs[i];
             detail.appendChild(p);
         }
 
