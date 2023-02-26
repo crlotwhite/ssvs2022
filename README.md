@@ -124,3 +124,30 @@ This is subsection and lines
     <p class="question-text">What is your sex?</p>
 </div>
 ```
+
+This is overall card
+```html
+<div class="small-container small-shadow">
+    <span class="topic-name">User Trends</span>
+    <p class="small-text">
+        Learning to code online increased from 60% to 70% year over year.
+        Respondents older than 45 years are most likely to have learned from books, while younger ones are learning online. Younger (under 18) respondents rely most on online resources and are most likely to have learned from online courses or certifications.
+    </p>
+</div>
+```
+
+This is first header
+```html
+<header id="header">
+    <div class="container big-shadow">
+        <div id="logo-box">
+            <span>2022</span>
+            <span>Singing Voice Synthesis</span>
+            <span>Survey</span>
+        </div>
+        <p>
+            In December 2022, 96 respondents from various communities around the world shared their views on Vocaloid fandom tendencies, software experience, and artificial intelligence technology.
+        </p>
+    </div>
+</header>
+```
