@@ -65,7 +65,7 @@ const strings = {
                     },
                     {
                         name: "The favourite software",
-                        overall: "Vocaloid was the most popular choice.",
+                        overall: "Vocaloid is the most popular choice.",
                         subName: "Which is the most preferred?",
                         paragraphs: [
                             "Synthesizer V was the second most popular with 52, followed by UTAU/OpenUTAU with 51, showing that it is still very popular.",
@@ -73,7 +73,54 @@ const strings = {
                         ],
                         chartId: "chart2",
                     },
-                    
+                    {
+                        name: "Introduction",
+                        overall: "Most respondents were introduced to the fandom through Internet searches or video platform recommendation algorithms.",
+                        subName: "How to know it?",
+                        paragraphs: [
+                            "In addition, there were many respondents who were introduced through friends, through games such as Project Diva, or through social media such as Facebook and Twitter.",
+                        ],
+                        chartId: "chart3",
+                    },
+                    {
+                        name: "Most Favorite Content",
+                        overall: "The most preferred content by most respondents was songs.",
+                        subName: "Which content is the most preferred?",
+                        paragraphs: [
+                            "Vocal covers like Utaite and media mix contents are also highly preferred.",
+                            "And there was one respondent who preferred games and 3D animations that are not directly related to songs."
+                        ],
+                        chartId: "chart4",
+                    },
+                    {
+                        name: "Duration",
+                        overall: "Most respondents have seen and liked the above content for at least three years.",
+                        subName: "How long have you been known?",
+                        paragraphs: [
+                            "The number of respondents who had been exposed to content for more than 10 years was the highest with 27 people, followed by those who had been exposed to content for 7 to 9 years with 24 people.",
+                            "In addition, there were 22 respondents who had encountered the content for 1 to 3 years and 18 respondents who had encountered the content for 4 to 6 years. Overall, the proportion of all responses was uniform."
+                        ],
+                        chartId: "chart5",
+                    },
+                    {
+                        name: "Reason",
+                        overall: "The reason most respondents chose it was the timbre of the voice.",
+                        subName: "Why you have liked it?",
+                        paragraphs: [
+                            "The next most people answered that they were interested in the technology by a narrow margin.",
+                            "Also, interest in attractive characters and the type of content itself seem to have contributed to many people entering the content."
+                        ],
+                        chartId: "chart6",
+                    },
+                    {
+                        name: "Using Experience",
+                        overall: "Almost all respondents have experience using related software.",
+                        subName: "How to know it?",
+                        paragraphs: [
+                            "Contrary to the expectation that only a small percentage of respondents used the software directly because it requires specialized knowledge, a large percentage of respondents said that they had experience using the software.",
+                        ],
+                        chartId: "chart7",
+                    },
                 ]
             },
         ],
@@ -89,6 +136,7 @@ const strings = {
             },
             chart2: {
                 question: "What is your favorite singing voice synthesis software? (Up to 3)",
+                label: "The number of responses",
                 labels: [
                     "Vocaloid",
                     "CeVIO/CeVIO Ai/VoiSona",
@@ -100,6 +148,57 @@ const strings = {
                     "DeepVocal",
                     "Piapro Studio NT",
                     "ACE Studio"
+                ]
+            },
+            chart3: {
+                question: "How did you know that?",
+                labels: [
+                    "Recommendation Algorithm for Video Platform (e.g. Youtube, NicoNico, bilibili, etc.)",
+                    "Search the Internet",
+                    "Refer a friend",
+                    "Content in the game (background music, etc.)",
+                    "Social media post (e.g. Facebook, Twitter, Instagram, etc.)",
+                    "Others"
+                ]
+            },
+            chart4: {
+                question: "What is your favorite type of the content? (Up to 2)",
+                label: "The number of responses",
+                labels: [
+                    "Songs (original, cover songs, etc.)",
+                    "Vocal cover (Utaite, etc.)",
+                    "Media mix (music-based original content; Kagerou Project, etc.)",
+                    "Doujin Manga (Hatsune Mix, etc.)",
+                    "3D animation (MMD, etc.)",
+                    "Games (Project Diva Series, etc.)",
+                    "Others",
+                ]
+            },
+            chart5: {
+                question: "How long have you been exposed to that content?",
+                labels: [
+                    "Less than a year",
+                    "1-3 years",
+                    "4-6 years",
+                    "7-9 years",
+                    "Over 10 years"
+                ]
+            },
+            chart6: {
+                question: "Why do you like that?",
+                labels: [
+                    "Attractive characters",
+                    "Timbre of the voice",
+                    "Interest in the type of content itself (such as 3D animation)",
+                    "An interest in the technology",
+                    "Others",
+                ]
+            },
+            chart7: {
+                question: "Did you ever tried using a singing voice synthesis software?",
+                labels: [
+                    "Yes",
+                    "No"
                 ]
             },
         }
@@ -197,6 +296,39 @@ const strings = {
             },
             chart2: {
                 question: "좋아하는 가창 합성 엔진이 무엇입니까? (3개까지)",
+                label: "응답수",
+                labels: [
+                    "Vocaloid",
+                    "CeVIO/CeVIO Ai/VoiSona",
+                    "Synthesizer V",
+                    "UTAU/OpenUTAU",
+                    "NEUTRINO",
+                    "NNSVS/ENUNU",
+                    "VOCALINA",
+                    "DeepVocal",
+                    "Piapro Studio NT",
+                    "ACE Studio"
+                ]
+            },
+            chart3: {
+                question: "좋아하는 가창 합성 엔진이 무엇입니까? (3개까지)",
+                label: "응답수",
+                labels: [
+                    "Vocaloid",
+                    "CeVIO/CeVIO Ai/VoiSona",
+                    "Synthesizer V",
+                    "UTAU/OpenUTAU",
+                    "NEUTRINO",
+                    "NNSVS/ENUNU",
+                    "VOCALINA",
+                    "DeepVocal",
+                    "Piapro Studio NT",
+                    "ACE Studio"
+                ]
+            },
+            chart4: {
+                question: "좋아하는 가창 합성 엔진이 무엇입니까? (3개까지)",
+                label: "응답수",
                 labels: [
                     "Vocaloid",
                     "CeVIO/CeVIO Ai/VoiSona",
