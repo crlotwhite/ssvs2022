@@ -254,6 +254,9 @@ const strings = {
             },
         ],
         chart: {
+            common: {
+                label: "The number of responses",
+            },
             chart1: {
                 question: "What is your sex?",
                 labels: [
@@ -265,7 +268,6 @@ const strings = {
             },
             chart2: {
                 question: "What is your favorite singing voice synthesis software? (Up to 3)",
-                label: "The number of responses",
                 labels: [
                     "Vocaloid",
                     "CeVIO/CeVIO Ai/VoiSona",
@@ -292,7 +294,6 @@ const strings = {
             },
             chart4: {
                 question: "What is your favorite type of the content? (Up to 2)",
-                label: "The number of responses",
                 labels: [
                     "Songs (original, cover songs, etc.)",
                     "Vocal cover (Utaite, etc.)",
@@ -346,6 +347,115 @@ const strings = {
                     "Actively promote contents",
                     "A lower price",
                     "Additional stock"
+                ]
+            },
+            chart10: {
+                question: "How long have you experienced the singing voice synthesis software?",
+                labels: [
+                    "Less than a year",
+                    "1-3 years",
+                    "4-6 years",
+                    "7-9 years",
+                    "Over 10 years"
+                ]
+            },
+            chart11: {
+                question: "How did you learn that?",
+                labels: [
+                    "Through the mentors",
+                    "Through the official manual",
+                    "Through the musical knowledge that you already have",
+                    "Through online video lectures",
+                    "Through trying to use that",
+                    "Through the internet post"
+                ]
+            },
+            chart12: {
+                question: "What is your level of use the software?",
+                labels: [
+                    "Beginner",
+                    "Intermediate",
+                    "Advanced",
+                    "Expert",
+                ]
+            },
+            chart13: {
+                question: "What singing voice synthesis software do you mainly use? (Up to 3)",
+                labels: [
+                    "Vocaloid",
+                    "CeVIO/CeVIO Ai/VoiSona",
+                    "Synthesizer V",
+                    "UTAU/OpenUTAU",
+                    "NEUTRINO",
+                    "NNSVS/ENUNU",
+                    "VOCALINA",
+                    "DeepVocal",
+                    "Piapro Studio NT",
+                    "ACE Studio",
+                    "Others",
+                ]
+            },
+            chart14: {
+                question: "What is your major operating system?",
+                labels: [
+                    "Windows 10/11",
+                    "Other Windows",
+                    "Linux (Ubuntu, Fedora, e.t.c)",
+                    "macOS/iOS/iPadOs",
+                ]
+            },
+            chart15: {
+                question: "What is the main reason for using that?",
+                labels: [
+                    "Like the character or the voice",
+                    "Easy to use",
+                    "Easy to integrate with DAW",
+                    "Great built-in effect",
+                    "Nice synthesis quality",
+                    "My favorite artist used that",
+                    "It is free",
+                    "Others"
+                ]
+            },
+            chart16: {
+                question: "What are the inconveniences of the software you used? (Up to 3)",
+                labels: [
+                    "Complex parameters",
+                    "Complex sound source settings (UTAU, DeepVocal, etc.)",
+                    "Too expensive cost",
+                    "Restriction of use environment (e.g. Windows operating systems only)",
+                    "Does not support native language",
+                    "No related communities",
+                    "High technical requirements (hardware specifications)",
+                    "Internet connection required",
+                    "Others"
+                ]
+            },
+            chart17: {
+                question: "Are there any additional singing voice synthesis software that you would like to use or are interested in?",
+                labels: [
+                    "Vocaloid",
+                    "CeVIO/CeVIO Ai/VoiSona",
+                    "Synthesizer V",
+                    "UTAU/OpenUTAU",
+                    "NNSVS/ENUNU",
+                    "DeepVocal",
+                    "Piapro Studio NT",
+                    "ACE Studio",
+                    "No intention of using another software",
+                    "Others",
+                ]
+            },
+            chart18: {
+                question: "Why would you want to use that?",
+                labels: [
+                    "Better voice synthesis quality",
+                    "Same character released on different engines",
+                    "Want to try a new engine",
+                    "More convenient than the previous engine",
+                    "Used by a collaborator",
+                    "Want to use engine's own character",
+                    "Others",
                 ]
             },
         }
