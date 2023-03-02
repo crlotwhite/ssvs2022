@@ -25,7 +25,10 @@ function chart1(canvasId, lang) {
                     },
                     title: {
                         display: true,
-                        text: strings[lang].chart[canvasId].question
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
                     }
                 }
             },
@@ -79,7 +82,10 @@ function chart2(canvasId, lang) {
                 plugins: {
                     title: {
                         display: true,
-                        text: strings[lang].chart[canvasId].question
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
                     }
                 }
             },
@@ -116,7 +122,10 @@ function chart3(canvasId, lang) {
                     },
                     title: {
                         display: true,
-                        text: strings[lang].chart[canvasId].question
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
                     }
                 }
             },
@@ -164,7 +173,10 @@ function chart4(canvasId, lang) {
                 plugins: {
                     title: {
                         display: true,
-                        text: strings[lang].chart[canvasId].question
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
                     }
                 }
             },
@@ -200,7 +212,10 @@ function chart5(canvasId, lang) {
                     },
                     title: {
                         display: true,
-                        text: strings[lang].chart[canvasId].question
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
                     }
                 }
             },
@@ -236,7 +251,10 @@ function chart6(canvasId, lang) {
                     },
                     title: {
                         display: true,
-                        text: strings[lang].chart[canvasId].question
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
                     }
                 }
             },
@@ -269,7 +287,86 @@ function chart7(canvasId, lang) {
                     },
                     title: {
                         display: true,
-                        text: strings[lang].chart[canvasId].question
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
+                    }
+                }
+            },
+        }
+    )
+}
+
+function chart8(canvasId, lang) {
+    new Chart(
+        document.getElementById(canvasId).getContext('2d'),
+        {
+            type: "pie",
+            data: {
+                labels: strings[lang].chart[canvasId].labels,
+                datasets: [{
+                    data: [1, 4, 1, 1],
+                    backgroundColor: [
+                        'rgb(255, 99, 132)',
+                        'rgb(54, 162, 235)',
+                        'rgb(255, 205, 86)',
+                        'rgb(157,241,169)',
+                    ],
+                    hoverOffset: 4
+                }]
+
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                    },
+                    title: {
+                        display: true,
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
+                    }
+                }
+            },
+        }
+    )
+}
+
+function chart9(canvasId, lang) {
+    new Chart(
+        document.getElementById(canvasId).getContext('2d'),
+        {
+            type: "pie",
+            data: {
+                labels: strings[lang].chart[canvasId].labels,
+                datasets: [{
+                    data: [2, 3, 1, 1],
+                    backgroundColor: [
+                        'rgb(255, 99, 132)',
+                        'rgb(54, 162, 235)',
+                        'rgb(255, 205, 86)',
+                        'rgb(157,241,169)',
+                    ],
+                    hoverOffset: 4
+                }]
+
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                    },
+                    title: {
+                        display: true,
+                        text: strings[lang].chart[canvasId].question,
+                        font: {
+                            size: 18,
+                        }
                     }
                 }
             },

@@ -75,20 +75,21 @@ const strings = {
                     },
                     {
                         name: "Introduction",
-                        overall: "Most respondents were introduced to the fandom through Internet searches or video platform recommendation algorithms.",
+                        overall: "The most way of entry was the internet.",
                         subName: "How to know it?",
                         paragraphs: [
-                            "In addition, there were many respondents who were introduced through friends, through games such as Project Diva, or through social media such as Facebook and Twitter.",
+                            "36 respondents said they found us through an internet search, followed closely by 35 who found us through a video platform's recommendation algorithm.",
+                            "Furthermore, 9 and 6 respondents said they were introduced to it through recommendations from friends and some media such as gaming, respectively, while the remaining 11 said they were introduced through social media or other means."
                         ],
                         chartId: "chart3",
                     },
                     {
                         name: "Most Favorite Content",
-                        overall: "The most preferred content by most respondents was songs.",
+                        overall: "The most preferred content by respondents was songs.",
                         subName: "Which content is the most preferred?",
                         paragraphs: [
-                            "Vocal covers like Utaite and media mix contents are also highly preferred.",
-                            "And there was one respondent who preferred games and 3D animations that are not directly related to songs."
+                            "With 87 respondents favoring song content, it was the most overwhelming, while similar vocal covers were the next most popular, with 36 respondents choosing them.",
+                            "There were also some respondents who preferred mixed media, games, and 3D animations, with 18, 17, and 10 respondents respectively."
                         ],
                         chartId: "chart4",
                     },
@@ -104,11 +105,11 @@ const strings = {
                     },
                     {
                         name: "Reason",
-                        overall: "The reason most respondents chose it was the timbre of the voice.",
+                        overall: "The most popular reason was the voice's timbre.",
                         subName: "Why you have liked it?",
                         paragraphs: [
-                            "The next most people answered that they were interested in the technology by a narrow margin.",
-                            "Also, interest in attractive characters and the type of content itself seem to have contributed to many people entering the content."
+                            "Thirty-two respondents said they liked the character's voice, followed closely by 31 who said they liked it because they were intrigued by the technology.",
+                            "There are also significant numbers of respondents who like the charming characters themselves or are interested in the content type itself, at 13 and 12, respectively."
                         ],
                         chartId: "chart6",
                     },
@@ -120,6 +121,134 @@ const strings = {
                             "Contrary to the expectation that only a small percentage of respondents used the software directly because it requires specialized knowledge, a large percentage of respondents said that they had experience using the software.",
                         ],
                         chartId: "chart7",
+                    },
+                ]
+            },
+            {
+                name: "Non the software user",
+                paragraphs: [
+                    "Let's talk about the barriers to entry for the software."
+                ],
+                subSection: [
+                    {
+                        name: "Difficulty",
+                        overall: "The majority of non-user respondents said the need for musical knowledge was the biggest barrier to entry.",
+                        subName: "Why did they fail in their attempts to use the software?",
+                        paragraphs: [
+                            "As expected, the need for musical knowledge and the cost of specialized software were mentioned as the main reasons.",
+                            "There were also comments that they didn't try it because they weren't interested in the software."
+                        ],
+                        chartId: "chart8",
+                    },
+                    {
+                        name: "Improvement",
+                        overall: "The most improvement needed for popularization is promotion.",
+                        subName: "What would it take to get them to use the software?",
+                        paragraphs: [
+                            "Promotions such as contests and fixes to frustrating usability were cited as the most needed improvements.",
+                            "The price and accessibility of the product is a barrier to adoption, so it's likely that something needs to be done to make it easier to buy."
+                        ],
+                        chartId: "chart9",
+                    },
+                ]
+            },
+            {
+                name: "Experience with the software",
+                paragraphs: [
+                    "Let's talk about the barriers to entry for the software."
+                ],
+                subSection: [
+                    {
+                        name: "Work Experience",
+                        overall: "Most respondents had three years or less of experience.",
+                        subName: "Years of using the software",
+                        paragraphs: [
+                            "Sixty-one respondents reported three years or less of experience, followed by 13 respondents with four to six years of experience.",
+                            "There was a small but significant number of 15 respondents with seven or more years of experience."
+                        ],
+                        chartId: "chart10",
+                    },
+                    {
+                        name: "Learning",
+                        overall: "Surprisingly, most respondents said they learned by trying it out.",
+                        subName: "How they learned Vocaloid",
+                        paragraphs: [
+                            "More than half of the respondents said they learned how to use the software by trying it out, while 20 respondents said they learned from internet posts.",
+                            "In addition, 11 respondents said they learned by watching online video lessons, and 7 people said they already have musical skills.",
+                            "Fewer respondents said they learned from an official manual, suggesting it wasn't very helpful."
+                        ],
+                        chartId: "chart11",
+                    },
+                    {
+                        name: "Proficiency",
+                        overall: "The majority of respondents said they could produce simple content with the software.",
+                        subName: "The level of using the software",
+                        paragraphs: [
+                            "Thirty-seven respondents said they had experience uploading their work online, followed by 25 who said they could manipulate simple parameters.",
+                            "Also, 17 respondents said they could perform simple tasks at the note-taking level, while the remaining 10 respondents said they had the usage level of a professional producer."
+                        ],
+                        chartId: "chart12",
+                    },
+                    {
+                        name: "Most Using Software",
+                        overall: "The most popular software is the UTAU series and Vocaloid.",
+                        subName: "What is the most popular software?",
+                        paragraphs: [
+                            "Vocaloid and UTAU Series were the most popular choices with 47 and 42 respondents, respectively, followed by Synthesizer V with 36.",
+                            "DeepVocal and CeVIO series was also chosen by 16 and 12 respondents, respectively, with the occasional respondent using VOCALINA, NNSVS, NEUTRINO, etc."
+                        ],
+                        chartId: "chart13",
+                    },
+                    {
+                        name: "Operating System",
+                        overall: "The operating system most people use is Windows 10 or Windows 11.",
+                        subName: "What environment do you work in?",
+                        paragraphs: [
+                            "The overwhelming majority of respondents said they work on the latest version of Windows.",
+                            "The remaining 10 respondents said they use Mac OS, iPad OS, Linux, etc."
+                        ],
+                        chartId: "chart14",
+                    },
+                    {
+                        name: "Advantages",
+                        overall: "The main reason they used the software was that they liked the character's voice.",
+                        subName: "Why do you use the software?",
+                        paragraphs: [
+                            "Forty-three respondents said they used the software because they liked the characters, followed by ease of use and good synthesis quality (17 and 13, respectively).",
+                            "A surprising number of people said they use the UTAU series or DeepVocal because it's free."
+                        ],
+                        chartId: "chart15",
+                    },
+                    {
+                        name: "Inconvenience",
+                        overall: "The most inconvenient factor about their software is the voice configuration.",
+                        subName: "What was the most inconvenient?",
+                        paragraphs: [
+                            "41 respondents said that the music settings in UTAU or DeepVocal were too complicated, followed by the cost of commercial software like Vocaloid, which was chosen by 31 respondents.",
+                            "The lack of native language support and complex parameters were followed by 23 and 22 respondents, respectively, and the lack of a community site and limited usage environment were chosen by 12 and 10 respondents, respectively."
+                        ],
+                        chartId: "chart16",
+                    },
+                    {
+                        name: "Additional Software",
+                        overall: "In terms of software to use in the future, CeVIO and Vocaloid received the most attention.",
+                        subName: "Software to be considered to use in the future",
+                        paragraphs: [
+                            "CeVIO and Vocaloid are the most popular choices with 22 and 21 respondents, respectively.",
+                            "Also, The next highest number of respondents (10 each) are considering using Synthesizer V or don't plan to use any other tools.",
+                            "Moreover, there are significant numbers of respondents considering NNSVS, Piapro Studio NT, and UTAU, with 7, 6, and 5 respectively."
+                        ],
+                        chartId: "chart17",
+                    },
+                    {
+                        name: "Reason",
+                        overall: "The main reasons mentioned for wanting to try a new tool were the characters.",
+                        subName: "Why are you considering trying additional tools?",
+                        paragraphs: [
+                            "Similar to the reasons for choosing their primary software, the proprietary character of the software was cited as the primary reason.",
+                            "The next largest group, 24 respondents, said they wanted to try new software, and 12 respondents said they were considering moving because of better compositing quality."
+                        ],
+                        chartId: "chart18",
                     },
                 ]
             },
@@ -199,6 +328,24 @@ const strings = {
                 labels: [
                     "Yes",
                     "No"
+                ]
+            },
+            chart8: {
+                question: "Why did not you use that?",
+                labels: [
+                    "Expensive software cost",
+                    "Need musical knowledge",
+                    "Not interested enough to use",
+                    "Out of Stock"
+                ]
+            },
+            chart9: {
+                question: "What improvements are needed for popularization?",
+                labels: [
+                    "More intuitive usability (available without musical knowledge)",
+                    "Actively promote contents",
+                    "A lower price",
+                    "Additional stock"
                 ]
             },
         }

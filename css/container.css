@@ -70,7 +70,8 @@ section {
     margin-left: 3vw;
 }
 .chart-box {
-    width: 50vw;
+    width: 47vw;
     height: inherit;
     padding-left: 5vw;
+    justify-content: center;
 }
