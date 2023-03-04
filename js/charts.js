@@ -159,3 +159,52 @@ function chart17(canvasId, lang) {
 function chart18(canvasId, lang) {
     pieChart(canvasId, strings[lang].chart[canvasId], [12, 7, 24, 5, 1, 29, 7]);
 }
+
+function chart19(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [65, 3, 11, 9, 8]);
+}
+
+function chart20(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [52, 44]);
+}
+
+function chart21(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [31, 30, 12, 10, 7, 6]);
+}
+
+function chart22(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [23, 15, 16, 11, 9, 8, 14]);
+}
+
+function chart23(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [35, 61]);
+}
+
+function chart24(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [2, 42, 40, 12]);
+}
+
+function chart25(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [18, 28, 35, 13, 2]);
+}
+
+function chart26(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [57, 34]);
+}
+
+function chart27(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [23, 15, 15, 17, 4]);
+}
+
+function chart28(canvasId, lang) {
+    pieChart(canvasId, strings[lang].chart[canvasId], [84, 12]);
+}
+
+function chart29(canvasId, lang) {
+    barChart(canvasId, strings[lang].chart[canvasId], strings[lang].chart.common.label, [8, 12, 25, 3, 12, 13, 4, 5, 9]);
+}
+
+function chart30(canvasId, lang) {
+    barChart(canvasId, strings[lang].chart[canvasId], strings[lang].chart.common.label, [5, 7, 8, 8, 59]);
+}
+

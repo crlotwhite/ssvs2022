@@ -30,13 +30,18 @@ h4 {
     font-size: 3vw;
 
 }
-.small-text {
-    font-size: 1.3vw;
+.small-text:nth-child(3) {
+    font-size: 1.2rem;
+}
+.small-text:nth-child(2) {
+    font-size: 1.4rem;
 }
 /* 선 밖으로 안나가게 보정 */
 .question-overview > p {
     width: 60vw;
+    font-size: 1.7vw;
 }
 .question-detail > p {
     width: 60vw;
+    font-size: 1.7vw;
 }

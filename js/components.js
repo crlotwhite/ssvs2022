@@ -72,6 +72,9 @@ class SubSection extends HTMLElement {
         const subSectionId = parseInt(this.getAttribute("ssid"));
         const subSectionStrings = sectionStrings.subSection[subSectionId];
 
+        // add id
+        this.id = `s${sectionId}ss${subSectionId}`;
+
         // draw big-line
         const bigLine = document.createElement("hr");
         bigLine.classList.add("line-big");
@@ -104,27 +107,29 @@ class SubSection extends HTMLElement {
         smallLine1.classList.add("line-small");
         subSection.appendChild(smallLine1);
 
-        // create question detail
-        const detail = document.createElement("div");
-        detail.classList.add("question-detail");
-        subSection.appendChild(detail);
+        if (subSectionStrings.subName !== "") {
+            // create question detail
+            const detail = document.createElement("div");
+            detail.classList.add("question-detail");
+            subSection.appendChild(detail);
 
-        const sectionSubName = document.createElement("h3");
-        sectionSubName.innerHTML = subSectionStrings.subName;
-        detail.appendChild(sectionSubName);
+            const sectionSubName = document.createElement("h3");
+            sectionSubName.innerHTML = subSectionStrings.subName;
+            detail.appendChild(sectionSubName);
 
-        // add paragraphs
-        const paragraphs = subSectionStrings.paragraphs;
-        for (let i=0;i<paragraphs.length;i++) {
-            const p = document.createElement("p");
-            p.innerHTML = paragraphs[i];
-            detail.appendChild(p);
+            // add paragraphs
+            const paragraphs = subSectionStrings.paragraphs;
+            for (let i=0;i<paragraphs.length;i++) {
+                const p = document.createElement("p");
+                p.innerHTML = paragraphs[i];
+                detail.appendChild(p);
+            }
+
+            // create small line 2
+            const smallLine2 = document.createElement("hr");
+            smallLine2.classList.add("line-small");
+            subSection.appendChild(smallLine2);
         }
-
-        // create small line 2
-        const smallLine2 = document.createElement("hr");
-        smallLine2.classList.add("line-small");
-        subSection.appendChild(smallLine2);
 
         // create chart box
         const chartBox = document.createElement("div");

@@ -43,11 +43,8 @@ section {
 }
 .small-container {
     background-color: #fafafa;
-    height: 70vh;
-    width: 30vw;
-    max-width: 340px;
-    min-width: 300px;
-    max-height: 560px;
+    /*height: 35vh;*/
+    width: 25vw;
     padding: 1em;
     border-radius: 1vw;
     text-align: left;
