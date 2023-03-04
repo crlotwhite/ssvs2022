@@ -62,7 +62,7 @@ const strings = {
                         chartId: "chart1",
                     },
                     {
-                        name: "The favourite software",
+                        name: "The Favourite Software",
                         overall: "Vocaloid is the most popular choice.",
                         subName: "Which is the most preferred?",
                         paragraphs: [
@@ -297,7 +297,7 @@ const strings = {
                         chartId: "chart22",
                     },
                     {
-                        name: "Experience of cross-lingual synthesis",
+                        name: "Experience of Cross-lingual Synthesis",
                         overall: "Most respondents said they had no experience with cross-lingual synthesis technology.",
                         subName: "Have you ever used cross-lingual synthesis?",
                         paragraphs: [
@@ -306,7 +306,7 @@ const strings = {
                         chartId: "chart23",
                     },
                     {
-                        name: "Quality of cross-lingual synthesis",
+                        name: "Quality of Cross-lingual Synthesis",
                         overall: "Most respondents are unsure about the quality of cross-lingual synthesis.",
                         subName: "The current state of cross-lingual synthesis technology",
                         paragraphs: [

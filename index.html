@@ -15,37 +15,180 @@
     <script src="js/strings.js"></script>
     <script src="js/charts.js"></script>
     <script src="js/components.js"></script>
+    <script type="text/javascript">
+        // Navigation
+        function initSubMenu() {
+            // nav-s5
+            document.getElementById("nav-s1").classList.remove("open");
+            document.getElementById("nav-s2").classList.remove("open");
+            document.getElementById("nav-s3").classList.remove("open");
+            document.getElementById("nav-s4").classList.remove("open");
+            document.getElementById("nav-s5").classList.remove("open");
+        }
+        function trackSectionMenu() {
+            const header = document.getElementById("header");
+            const sections = document.querySelectorAll("section");
+            const navSectionAnchors = document.querySelectorAll(".nav-s");
+
+            navSectionAnchors.forEach((e) => {
+                e.classList.remove("active");
+            })
+
+            const positions = []
+            positions.push(header.offsetTop + header.offsetHeight);
+
+            for (let i=0;i<sections.length;i++) {
+                positions.push(sections[i].offsetTop + sections[i].offsetHeight - 10);
+            }
+
+            const curY = window.scrollY;
+
+            if (curY < positions[0]) {
+                navSectionAnchors[0].classList.add("active");
+            } else if (curY < positions[1]) {
+                navSectionAnchors[1].classList.add("active");
+            } else if (curY < positions[2]) {
+                navSectionAnchors[2].classList.add("active");
+                document.getElementById("nav-s1").classList.add("open");
+            } else if (curY < positions[3]) {
+                navSectionAnchors[3].classList.add("active");
+                document.getElementById("nav-s2").classList.add("open");
+            } else if (curY < positions[4]) {
+                navSectionAnchors[4].classList.add("active");
+                document.getElementById("nav-s3").classList.add("open");
+            } else if (curY < positions[5]) {
+                navSectionAnchors[5].classList.add("active");
+                document.getElementById("nav-s4").classList.add("open");
+            } else if (curY < positions[6]) {
+                navSectionAnchors[6].classList.add("active");
+                document.getElementById("nav-s5").classList.add("open");
+            }
+        }
+
+        function trackSubSectionMenu() {
+            const subSections = document.querySelectorAll("sub-section");
+            const navSubSectionAnchors = document.querySelectorAll(".sub-menu > a");
+
+            navSubSectionAnchors.forEach((e) => {
+                e.classList.remove("active");
+            })
+
+            const positions = []
+
+            for (let i=0;i<subSections.length;i++) {
+                positions.push(subSections[i].offsetTop + subSections[i].offsetHeight - 10);
+            }
+
+            const curY = window.scrollY;
+
+            for (let i=0;i<positions.length;i++) {
+                if (curY < positions[i]) {
+                    navSubSectionAnchors[i].classList.add("active");
+                    break;
+                }
+            }
+        }
+
+        window.addEventListener("load", (event) => {
+            trackSectionMenu();
+            trackSubSectionMenu();
+        });
+
+        window.addEventListener("scroll", (event) => {
+            initSubMenu();
+            trackSectionMenu();
+            trackSubSectionMenu();
+        });
+    </script>
 </head>
 <body>
 <!-- Nav bar -->
 <nav id="navbar" class="sticky">
-    <a href="">Overview</a>
+    <a href="#header" class="nav-s">Top</a>
     <hr class="menu-split" >
-    <a href="">About</a>
-    <div class="sub-menu">
+    <a href="#s0" class="nav-s">About</a>
+    <hr class="menu-split">
+    <a href="#s1" class="nav-s">User Trends</a>
+    <div id="nav-s1" class="sub-menu">
         <hr class="sub-menu-split">
-        <a href="">Sub 1</a>
+        <a href="#s1ss0">Gender</a>
         <hr class="sub-menu-split">
-        <a href="">Sub 2</a>
+        <a href="#s1ss1">Favourite software</a>
         <hr class="sub-menu-split">
-        <a href="">Sub 3</a>
+        <a href="#s1ss2">Introduction</a>
         <hr class="sub-menu-split">
-        <a href="">Sub 4</a>
+        <a href="#s1ss3">Favorite content</a>
         <hr class="sub-menu-split">
-        <a href="">Sub 5</a>
+        <a href="#s1ss4">Duration</a>
+        <hr class="sub-menu-split">
+        <a href="#s1ss5">Reason</a>
+        <hr class="sub-menu-split">
+        <a href="#s1ss6">Experience</a>
     </div>
-    <hr class="menu-split" >
-    <a href="">User Trends</a>
     <hr class="menu-split">
-    <a href="">Non Users</a>
+    <a href="#s2" class="nav-s">Non Users</a>
+    <div id="nav-s2" class="sub-menu">
+        <hr class="sub-menu-split">
+        <a href="#s2ss0">Difficulty</a>
+        <hr class="sub-menu-split">
+        <a href="#s2ss1">Improvement</a>
+    </div>
     <hr class="menu-split">
-    <a href="">Expert Users</a>
+    <a href="#s3" class="nav-s">Expert Users</a>
+    <div id="nav-s3" class="sub-menu">
+        <hr class="sub-menu-split">
+        <a href="#s3ss0">Work Experience</a>
+        <hr class="sub-menu-split">
+        <a href="#s3ss1">Learning</a>
+        <hr class="sub-menu-split">
+        <a href="#s3ss2">Proficiency</a>
+        <hr class="sub-menu-split">
+        <a href="#s3ss3">Most Using Software</a>
+        <hr class="sub-menu-split">
+        <a href="#s3ss4">Operation System</a>
+        <hr class="sub-menu-split">
+        <a href="#s3ss5">Advantages</a>
+        <hr class="sub-menu-split">
+        <a href="#s3ss6">Inconvenience</a>
+        <hr class="sub-menu-split">
+        <a href="#s3ss7">Additional Software</a>
+        <hr class="sub-menu-split">
+        <a href="#s3ss8">Reason</a>
+    </div>
     <hr class="menu-split">
-    <a href="">Ai Technology</a>
+    <a href="#s4" class="nav-s">Ai Technology</a>
+    <div id="nav-s4" class="sub-menu">
+        <hr class="sub-menu-split">
+        <a href="#s4ss0">Opinion (AI)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss1">Experience (AI)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss2">Advantages (AI)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss3">Disadvantages (AI)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss4">Experience (CL)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss5">Quality (CL)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss6">Lack (CL)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss7">Necessity (CL)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss8">Reason (CL)</a>
+        <hr class="sub-menu-split">
+        <a href="#s4ss9">Open-sourcing (CL)</a>
+    </div>
     <hr class="menu-split">
-    <a href="">Feedbacks</a>
+    <a href="#s5" class="nav-s">Feedbacks</a>
+    <div id="nav-s5" class="sub-menu">
+        <hr class="sub-menu-split">
+        <a href="#s5ss0">Engagement routes</a>
+        <hr class="sub-menu-split">
+        <a href="#s5ss1">Needed Improvement</a>
+    </div>
 </nav>
-<first-header lang="en"></first-header>
+<first-header lang="en" id="header"></first-header>
 <!-- Overview Section -->
 <section id="s0">
     <section-header sid="0" lang="en"></section-header>
@@ -107,7 +250,5 @@
     <sub-section sid="5" ssid="0" lang="en"></sub-section>
     <sub-section sid="5" ssid="1" lang="en"></sub-section>
 </section>
-
-
 </body>
 </html>

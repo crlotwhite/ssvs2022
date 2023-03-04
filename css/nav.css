@@ -12,8 +12,14 @@
 }
 #navbar a {
     display: block;
-    color: #f2f2f2;
+    color: #919191;
     text-decoration: none;
+}
+.active {
+    color: #f2f2f2 !important;
+}
+.open {
+    display: flex !important;
 }
 .sticky {
     position: fixed;
@@ -22,7 +28,7 @@
     width: 30%;
 }
 .sub-menu {
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 hr.menu-split {
