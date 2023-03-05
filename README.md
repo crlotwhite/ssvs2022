@@ -7,6 +7,7 @@ Translation and design contributions can be used by referring to the explanation
 ## Translation
 You can add translations by copying the following entry in strings.js.
 
+
 ```javascript
 const strings = {
     en: {
@@ -14,6 +15,24 @@ const strings = {
     }
 }
 ```
+
+and change this
+
+```javascript
+language: {
+    name: "Language",
+    langName: [
+        "English",
+        "Korean",
+        "Japanese"
+    ],
+}
+```
+
+But don't change following items:
+- Section Name
+- Software name
+- Community name
 
 When you add a translation, it is listed automatically, so there is no additional work required other than adding a language object.
 
