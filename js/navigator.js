@@ -80,3 +80,25 @@ window.addEventListener("scroll", (event) => {
     trackSectionMenu();
     trackSubSectionMenu();
 });
+
+let el = document.getElementById("lang");
+el.addEventListener("change", () => {
+    let langCode = el.options[el.selectedIndex].value;
+
+    document.getElementsByTagName("nav-menu")[0].setAttribute("lang", langCode);
+    document.getElementsByTagName("first-header")[0].setAttribute("lang", langCode);
+
+    document.querySelectorAll("overall-card").forEach((value) => {
+        value.setAttribute("lang", langCode);
+    });
+
+    document.querySelectorAll("section-header").forEach((value) => {
+        value.setAttribute("lang", langCode);
+    });
+
+    document.querySelectorAll("sub-section").forEach((value) => {
+        value.setAttribute("lang", langCode);
+    });
+
+    //TODO: footer add
+}, false);

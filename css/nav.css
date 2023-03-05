@@ -53,3 +53,36 @@ hr.sub-menu-split {
     font-size: 2vh;
     padding-left: 1vw;
 }
+#navbar > span {
+    text-align: left;
+    font-size: 3vh;
+    font-weight: bold;
+    color: #919191;
+}
+.lang-select {
+    padding-top: 10px;
+}
+#lang {
+    width: 100%;
+    border: 0px;
+    font-size: 3vh;
+    color: #919191;
+    background-color: #333333;
+    padding: 0%;
+}
+
+@media (max-width: 1000px) {
+    #navbar {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 65vw;
+        /*max-width: 330px;*/
+        overflow: hidden;
+        background-color: #333;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 1vh;
+    }
+}

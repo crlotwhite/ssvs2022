@@ -15,95 +15,10 @@
     <script src="js/strings.js"></script>
     <script src="js/charts.js"></script>
     <script src="js/components.js"></script>
-    <script src="js/navigator.js"></script>
 </head>
 <body>
 <!-- Nav bar -->
-<nav id="navbar" class="sticky">
-    <a href="#header" class="nav-s">Top</a>
-    <hr class="menu-split" >
-    <a href="#s0" class="nav-s">About</a>
-    <hr class="menu-split">
-    <a href="#s1" class="nav-s">User Trends</a>
-    <div id="nav-s1" class="sub-menu">
-        <hr class="sub-menu-split">
-        <a href="#s1ss0">Gender</a>
-        <hr class="sub-menu-split">
-        <a href="#s1ss1">Favourite software</a>
-        <hr class="sub-menu-split">
-        <a href="#s1ss2">Introduction</a>
-        <hr class="sub-menu-split">
-        <a href="#s1ss3">Favorite content</a>
-        <hr class="sub-menu-split">
-        <a href="#s1ss4">Duration</a>
-        <hr class="sub-menu-split">
-        <a href="#s1ss5">Reason</a>
-        <hr class="sub-menu-split">
-        <a href="#s1ss6">Experience</a>
-    </div>
-    <hr class="menu-split">
-    <a href="#s2" class="nav-s">Non Users</a>
-    <div id="nav-s2" class="sub-menu">
-        <hr class="sub-menu-split">
-        <a href="#s2ss0">Difficulty</a>
-        <hr class="sub-menu-split">
-        <a href="#s2ss1">Improvement</a>
-    </div>
-    <hr class="menu-split">
-    <a href="#s3" class="nav-s">Expert Users</a>
-    <div id="nav-s3" class="sub-menu">
-        <hr class="sub-menu-split">
-        <a href="#s3ss0">Work Experience</a>
-        <hr class="sub-menu-split">
-        <a href="#s3ss1">Learning</a>
-        <hr class="sub-menu-split">
-        <a href="#s3ss2">Proficiency</a>
-        <hr class="sub-menu-split">
-        <a href="#s3ss3">Most Using Software</a>
-        <hr class="sub-menu-split">
-        <a href="#s3ss4">Operation System</a>
-        <hr class="sub-menu-split">
-        <a href="#s3ss5">Advantages</a>
-        <hr class="sub-menu-split">
-        <a href="#s3ss6">Inconvenience</a>
-        <hr class="sub-menu-split">
-        <a href="#s3ss7">Additional Software</a>
-        <hr class="sub-menu-split">
-        <a href="#s3ss8">Reason</a>
-    </div>
-    <hr class="menu-split">
-    <a href="#s4" class="nav-s">Ai Technology</a>
-    <div id="nav-s4" class="sub-menu">
-        <hr class="sub-menu-split">
-        <a href="#s4ss0">Opinion (AI)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss1">Experience (AI)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss2">Advantages (AI)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss3">Disadvantages (AI)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss4">Experience (CL)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss5">Quality (CL)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss6">Lack (CL)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss7">Necessity (CL)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss8">Reason (CL)</a>
-        <hr class="sub-menu-split">
-        <a href="#s4ss9">Open-sourcing (CL)</a>
-    </div>
-    <hr class="menu-split">
-    <a href="#s5" class="nav-s">Feedbacks</a>
-    <div id="nav-s5" class="sub-menu">
-        <hr class="sub-menu-split">
-        <a href="#s5ss0">Engagement routes</a>
-        <hr class="sub-menu-split">
-        <a href="#s5ss1">Needed Improvement</a>
-    </div>
-</nav>
+<nav-menu lang="en"></nav-menu>
 <first-header lang="en" id="header"></first-header>
 <!-- Overview Section -->
 <section id="s0">
@@ -165,6 +80,28 @@
     <section-header sid="5" lang="en"></section-header>
     <sub-section sid="5" ssid="0" lang="en"></sub-section>
     <sub-section sid="5" ssid="1" lang="en"></sub-section>
+    <sub-section sid="5" ssid="2" lang="en"></sub-section>
+    <hr class="line-big">
+    <div class="sub-section">
+        <div class="question-overview">
+            <h4>User Trends</h4>
+            <h2>Education</h2>
+            <p>Most developers (87%) have a post-secondary education, having some college or more.</p>
+        </div>
+        <hr class="line-small">
+        <div class="question-detail">
+            <h3>Educational attainment</h3>
+            <p>38% of those learning to code already have a degree, learning doesn't have to stop after you graduate.</p>
+            <p>70% of all respondents and 80% of Professional Developers have completed some form of higher education, a bachelor’s degree being the most common.</p>
+        </div>
+    </div>
 </section>
+<footer>
+    <h1>
+        Thank you for reading!
+    </h1>
+</footer>
+<!-- the script run after rendering -->
+<script src="js/navigator.js"></script>
 </body>
 </html>

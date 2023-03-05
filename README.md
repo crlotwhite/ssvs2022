@@ -151,3 +151,53 @@ This is first header
     </div>
 </header>
 ```
+
+This is navbar
+```html
+<nav id="navbar" class="sticky">
+    <a href="#header" class="nav-s">Top</a>
+    <hr class="menu-split" >
+    <a href="#s0" class="nav-s">About</a>
+    <hr class="menu-split">
+    <a href="#s1" class="nav-s">User Trends</a>
+    <div id="nav-s1" class="sub-menu">
+        <hr class="sub-menu-split">
+        <a href="#s1ss0">Gender</a>
+        <hr class="sub-menu-split">
+        <a href="#s1ss1">Favourite software</a>
+        <hr class="sub-menu-split">
+        <a href="#s1ss2">Introduction</a>
+        <hr class="sub-menu-split">
+        <a href="#s1ss3">Favorite content</a>
+        <hr class="sub-menu-split">
+        <a href="#s1ss4">Duration</a>
+        <hr class="sub-menu-split">
+        <a href="#s1ss5">Reason</a>
+        <hr class="sub-menu-split">
+        <a href="#s1ss6">Experience</a>
+    </div>
+    <hr class="menu-split">
+    <a href="#s2" class="nav-s">Non Users</a>
+    <hr class="menu-split">
+    <a href="#s3" class="nav-s">Expert Users</a>
+    <hr class="menu-split">
+    <a href="#s4" class="nav-s">Ai Technology</a>
+    <hr class="menu-split">
+    <a href="#s5" class="nav-s">Feedbacks</a>
+    <div id="nav-s5" class="sub-menu">
+        <hr class="sub-menu-split">
+        <a href="#s5ss0">Engagement routes</a>
+        <hr class="sub-menu-split">
+        <a href="#s5ss1">Needed Improvement</a>
+    </div>
+    <hr class="menu-split">
+    <span>Language</span>
+    <div class="lang-select">
+        <hr class="sub-menu-split">
+        <select id="lang">
+            <option value="en" selected>English</option>
+            <option value="kr">Korean</option>
+        </select>
+    </div>
+</nav>
+```

@@ -124,28 +124,32 @@ class SubSection extends HTMLElement {
                 p.innerHTML = paragraphs[i];
                 detail.appendChild(p);
             }
+        }
 
+        if (subSectionStrings.subName !== "" && subSectionStrings.chartId !== "") {
             // create small line 2
             const smallLine2 = document.createElement("hr");
             smallLine2.classList.add("line-small");
             subSection.appendChild(smallLine2);
         }
 
-        // create chart box
-        const chartBox = document.createElement("div");
-        chartBox.classList.add("chart-box");
-        subSection.appendChild(chartBox);
+        if (subSectionStrings.chartId !== "") {
+            // create chart box
+            const chartBox = document.createElement("div");
+            chartBox.classList.add("chart-box");
+            subSection.appendChild(chartBox);
 
-        // create canvas
-        const chartCanvas = document.createElement("canvas");
-        chartCanvas.id = subSectionStrings.chartId;
-        chartBox.appendChild(chartCanvas);
+            // create canvas
+            const chartCanvas = document.createElement("canvas");
+            chartCanvas.id = subSectionStrings.chartId;
+            chartBox.appendChild(chartCanvas);
 
-        // append chart code
-        const chartScript = document.createElement("script");
-        chartScript.type = "text/javascript";
-        chartScript.innerHTML = `${subSectionStrings.chartId}("${subSectionStrings.chartId}", "${lang}");`
-        subSection.appendChild(chartScript);
+            // append chart code
+            const chartScript = document.createElement("script");
+            chartScript.type = "text/javascript";
+            chartScript.innerHTML = `${subSectionStrings.chartId}("${subSectionStrings.chartId}", "${lang}");`
+            subSection.appendChild(chartScript);
+        }
     }
 
     static get observedAttributes() {
@@ -264,8 +268,114 @@ class FirstHeader extends HTMLElement {
 }
 customElements.define('first-header', FirstHeader);
 
-// get all keys
-// for (var key in a) {
-//     console.log(key);
-// }
+class NavMenu extends HTMLElement {
+    render() {
+        // clear first
+        this.innerHTML = '';
+
+        // get strings from
+        const lang = this.getAttribute("lang");
+        let currentLanguageStrings = strings["en"];
+
+        if (lang != null) {
+            currentLanguageStrings = strings[lang];
+        }
+
+        const navStrings = currentLanguageStrings.nav;
+
+        // add id and class
+        this.id = "navbar";
+        this.classList.add("sticky");
+
+        // add header
+        const header = document.createElement("a");
+        header.innerHTML = navStrings.section[0];
+        header.href = "#header";
+        header.classList.add("nav-s");
+        this.appendChild(header);
+
+        const hr = document.createElement("hr");
+        hr.classList.add("menu-split");
+        this.appendChild(hr);
+
+        for (let i=1;i<navStrings.section.length;i++) {
+            // add section name
+            const anchor = document.createElement("a");
+            anchor.innerHTML = navStrings.section[i];
+            anchor.href = `#s${i-1}`;
+            anchor.classList.add("nav-s");
+            this.appendChild(anchor);
+            if (i !== 1) {
+                // add sub-section box
+                const div = document.createElement("div");
+                div.id = `nav-s${i-1}`;
+                div.classList.add("sub-menu");
+                this.appendChild(div);
+
+                const navSubSectionStrings = navStrings.subSection[`s${i-1}`];
+
+                for (let j=0;j<navSubSectionStrings.length;j++) {
+                    const innerHr = document.createElement("hr");
+                    innerHr.classList.add("sub-menu-split");
+                    div.appendChild(innerHr);
+
+                    const innerAnchor = document.createElement("a");
+                    innerAnchor.innerHTML = navSubSectionStrings[j];
+                    innerAnchor.href = `#s${i-1}ss${j}`;
+                    div.appendChild(innerAnchor);
+                }
+            }
+            const hr = document.createElement("hr");
+            hr.classList.add("menu-split");
+            this.appendChild(hr);
+        }
+
+        const span = document.createElement("span");
+        span.innerHTML = navStrings.language.name;
+        this.appendChild(span);
+
+        const div = document.createElement("div");
+        div.classList.add("lang-select");
+        this.appendChild(div);
+
+        const innerHr = document.createElement("hr");
+        innerHr.classList.add("sub-menu-split");
+        div.appendChild(innerHr);
+
+        const select = document.createElement("select");
+        select.id = "lang";
+        div.appendChild(select);
+
+        // get all keys from strings
+        const langCode = [];
+        for (let key in strings) {
+            langCode.push(key);
+        }
+
+        let isSelected = true;
+        for (let i=0;i<navStrings.language.langName.length;i++) {
+            const option = document.createElement("option");
+            option.innerHTML = navStrings.language.langName[i];
+            option.value = langCode[i];
+            if (isSelected) {
+                // first item only selected
+                option.selected = true;
+                isSelected = false;
+            }
+            select.appendChild(option);
+        }
+    }
+
+    static get observedAttributes() {
+        return ["lang"];
+    }
+
+    connectedCallback() {
+        this.render();
+    }
+    attributeChangedCallback() {
+        this.render();
+    }
+}
+customElements.define('nav-menu', NavMenu);
 

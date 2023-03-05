@@ -380,6 +380,15 @@ const strings = {
                         ],
                         chartId: "chart30",
                     },
+                    {
+                        name: "A",
+                        overall: "A",
+                        subName: "A",
+                        paragraphs: [
+                            "A"
+                        ],
+                        chartId: ""
+                    }
 
                 ]
             },
@@ -703,10 +712,68 @@ const strings = {
                     "No section for improvement",
                 ]
             },
+        },
+        nav: {
+            section: [
+                "Top",
+                "About",
+                "User Trends",
+                "Non Users",
+                "Expert Users",
+                "Ai Technology",
+                "Feedbacks",
+            ],
+            subSection: {
+                s1: [
+                    "Gender",
+                    "Favourite software",
+                    "Introduction",
+                    "Favorite content",
+                    "Duration",
+                    "Reason",
+                    "Experience"
+                ],
+                s2: [
+                    "Difficulty",
+                    "Improvement"
+                ],
+                s3: [
+                    "Work Experience",
+                    "Learning",
+                    "Proficiency",
+                    "Most Using Software",
+                    "Operation System",
+                    "Advantages",
+                    "Inconvenience",
+                    "Additional Software",
+                    "Reason"
+                ],
+                s4: [
+                    "Opinion (AI)",
+                    "Experience (AI)",
+                    "Advantages (AI)",
+                    "Disadvantages (AI)",
+                    "Experience (CL)",
+                    "Quality (CL)",
+                    "Lack (CL)",
+                    "Necessity (CL)",
+                    "Reason (CL)",
+                    "Open-sourcing (CL)"
+                ],
+                s5: [
+                    "Engagement routes",
+                    "Needed Improvement"
+                ]
+            },
+            language: {
+                name: "Language",
+                langName: [
+                    "English",
+                    "Korean",
+                    "Japanese"
+                ],
+            }
         }
-    },
-    jp: {
-
     },
     kr: {
         headerText: "2022년 12월, 전세계 커뮤니티로부터 96 응답자가 보컬로이드 팬덤에서의 자신 및 소프트웨어 사용 경험, 그리고 인공지능 기술에 대한 의견을 공유해주었습니다.",
@@ -845,5 +912,8 @@ const strings = {
                 ]
             }
         }
-    }
+    },
+    jp: {
+
+    },
 }
