@@ -26,7 +26,7 @@ const strings = {
             {
                 name: "AI in Singing Voice Synthesis",
                 paragraphs: [
-                    "Analyzes opinions on Ai technology and cross-lingual synthesis techniques.",
+                    "Analyzes opinions on AI technology and cross-lingual synthesis techniques.",
                     "It analyzes various people's opinions on the current state of the recent technology and analyzes their validity through questions related to my research."
                 ]
             },
@@ -258,8 +258,8 @@ const strings = {
                 subSection: [
                     {
                         name: "Opinion about AI",
-                        overall: "Most respondents had a positive opinion of Ai technology.",
-                        subName: "The influence of Ai technology",
+                        overall: "Most respondents had a positive opinion of AI technology.",
+                        subName: "The influence of AI technology",
                         paragraphs: [
                             "65 respondents said they were excited about advances in artificial intelligence technology, and 11 said it would make their software easier to use.",
                             "However, 9 respondents worried that this would devalue their output, and 3 respondents worried that they would have to learn new skills to use the software."
@@ -268,18 +268,18 @@ const strings = {
                     },
                     {
                         name: "Experience of AI Technology",
-                        overall: "Most respondents said they had used software with Ai technology.",
-                        subName: "Experience using Ai technologies",
+                        overall: "Most respondents said they had used software with AI technology.",
+                        subName: "Experience using AI technologies",
                         paragraphs: [
-                            "52 respondents said they had experience with software that used Ai technology, such as Synthesizer V or NNSVS/ENUNU, while the remaining 44 respondents said they did not.",
+                            "52 respondents said they had experience with software that used AI technology, such as Synthesizer V or NNSVS/ENUNU, while the remaining 44 respondents said they did not.",
                             "Rather than being completely skewed to one side or the other, the proportions were balanced."
                         ],
                         chartId: "chart20",
                     },
                     {
                         name: "Advantages of AI Technology",
-                        overall: "The biggest benefit of Ai technology is the improvement in vocal synthesis quality.",
-                        subName: "What are the advantages of Ai technology?",
+                        overall: "The biggest benefit of AI technology is the improvement in vocal synthesis quality.",
+                        subName: "What are the advantages of AI technology?",
                         paragraphs: [
                             "31 respondents said that improved compositing quality was the biggest benefit, and 30 respondents said that being able to showcase great quality with less effort was an advantage.",
                             "In addition, 12 respondents said it was easier to use, while 10 and 7 respondents selected the increased clarity of pronunciations and various expressions, respectively."
@@ -288,8 +288,8 @@ const strings = {
                     },
                     {
                         name: "Disadvantages of AI Technology",
-                        overall: "The major drawback of software using Ai technology was the increased cost.",
-                        subName: "What are the inconveniences of Ai technology?",
+                        overall: "The major drawback of software using AI technology was the increased cost.",
+                        subName: "What are the inconveniences of AI technology?",
                         paragraphs: [
                             "23 respondents said the increased purchase cost was the biggest downside, and 16 respondents said the pronunciation adjustment was frustrating.",
                             "Also, 15 respondents said they were uncomfortable with the increase in hardware specifications, and finally, subtle noise and increased synthesis time were picked by 11 and 9 respondents, respectively."
@@ -446,7 +446,7 @@ const strings = {
                 question: "What is your favorite singing voice synthesis software? (Up to 3)",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NEUTRINO",
@@ -559,7 +559,7 @@ const strings = {
                 question: "What singing voice synthesis software do you mainly use? (Up to 3)",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NEUTRINO",
@@ -611,7 +611,7 @@ const strings = {
                 question: "Are there any additional singing voice synthesis software that you would like to use or are interested in?",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NNSVS/ENUNU",
@@ -756,7 +756,7 @@ const strings = {
                 "User Trends",
                 "Non Users",
                 "Expert Users",
-                "Ai Technology",
+                "AI Technology",
                 "Feedbacks",
             ],
             subSection: {
@@ -1081,18 +1081,18 @@ const strings = {
                     },
                     {
                         name: "AI 기술에 대한 경험",
-                        overall: "대부분의 응답자가 Ai 기술이 사용된 소프트웨어를 사용한 경험이 있다고 답했습니다.",
-                        subName: "Ai 기술 사용 경험",
+                        overall: "대부분의 응답자가 AI 기술이 사용된 소프트웨어를 사용한 경험이 있다고 답했습니다.",
+                        subName: "AI 기술 사용 경험",
                         paragraphs: [
-                            "52명의 응답자가 Synthesizer V나 NNSVS/ENUNU와 같은 Ai 기술이 사용된 소프트웨어에 대한 사용 경험이 있다고 답했고, 나머지 44명의 응답자는 그렇지 않다고 답했습니다.",
+                            "52명의 응답자가 Synthesizer V나 NNSVS/ENUNU와 같은 AI 기술이 사용된 소프트웨어에 대한 사용 경험이 있다고 답했고, 나머지 44명의 응답자는 그렇지 않다고 답했습니다.",
                             "양쪽의 비율이 완전히 치우치기보다는 균형 있는 비율을 보여주고 있습니다."
                         ],
                         chartId: "chart20",
                     },
                     {
                         name: "AI 기술의 장점",
-                        overall: "Ai 기술이 주는 가장 큰 장점은 가창 합성 품질의 향상입니다.",
-                        subName: "Ai 기술이 주는 이로운 점",
+                        overall: "AI 기술이 주는 가장 큰 장점은 가창 합성 품질의 향상입니다.",
+                        subName: "AI 기술이 주는 이로운 점",
                         paragraphs: [
                             "31명의 응답자가 합성 품질의 향상을 가장 큰 장점으로 꼽았고, 30명의 응답자가 적은 노력으로 훌륭한 퀄리티를 보여줄 수 있다는 것을 장점으로 언급했습니다.",
                             "또한 12명의 응답자는 사용이 쉬워지는 것을 장점으로 언급했고, 다양한 표현과 발음의 명확성 증가를 각각 10명, 7명의 응답자가 선택했습니다."
@@ -1101,8 +1101,8 @@ const strings = {
                     },
                     {
                         name: "AI 기술의 단점",
-                        overall: "Ai 기술이 사용된 소프트웨어의 가장 큰 단점은 증가한 비용이었습니다.",
-                        subName: "Ai 기술이 주는 불편한 점",
+                        overall: "AI 기술이 사용된 소프트웨어의 가장 큰 단점은 증가한 비용이었습니다.",
+                        subName: "AI 기술이 주는 불편한 점",
                         paragraphs: [
                             "23명의 응답자가 구매 비용의 증가가 가장 큰 단점이라고 답했고, 16명의 응답자가 발음 조정이 잘 적용되지 않는 것이 불편하다고 답했습니다.",
                             "또한, 15명의 응답자가 동작 사양의 증가가 불편하다고 답했으며, 마지막으로 미묘한 잡음과 합성 시간의 증가가 각각 11명, 9명의 응답자의 선택을 받았습니다."
@@ -1258,7 +1258,7 @@ const strings = {
                 question: "좋아하는 가창 합성 엔진이 무엇입니까? (3개까지)",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NEUTRINO",
@@ -1371,7 +1371,7 @@ const strings = {
                 question: "주로 사용하는 가창 합성 엔진이 무엇인가요. (3개까지)",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NEUTRINO",
@@ -1423,7 +1423,7 @@ const strings = {
                 question: "추가로 사용하려는 또는 관심을 가지고 있는 가창 합성 엔진이 있나요?",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NNSVS/ENUNU",
@@ -1568,7 +1568,7 @@ const strings = {
                 "User Trends",
                 "Non Users",
                 "Expert Users",
-                "Ai Technology",
+                "AI Technology",
                 "Feedbacks",
             ],
             subSection: {
@@ -1652,7 +1652,7 @@ const strings = {
             {
                 name: "AI in Singing Voice Synthesis",
                 paragraphs: [
-                    "Analyzes opinions on Ai technology and cross-lingual synthesis techniques.",
+                    "Analyzes opinions on AI technology and cross-lingual synthesis techniques.",
                     "It analyzes various people's opinions on the current state of the recent technology and analyzes their validity through questions related to my research."
                 ]
             },
@@ -1884,8 +1884,8 @@ const strings = {
                 subSection: [
                     {
                         name: "Opinion about AI",
-                        overall: "Most respondents had a positive opinion of Ai technology.",
-                        subName: "The influence of Ai technology",
+                        overall: "Most respondents had a positive opinion of AI technology.",
+                        subName: "The influence of AI technology",
                         paragraphs: [
                             "65 respondents said they were excited about advances in artificial intelligence technology, and 11 said it would make their software easier to use.",
                             "However, 9 respondents worried that this would devalue their output, and 3 respondents worried that they would have to learn new skills to use the software."
@@ -1894,18 +1894,18 @@ const strings = {
                     },
                     {
                         name: "Experience of AI Technology",
-                        overall: "Most respondents said they had used software with Ai technology.",
-                        subName: "Experience using Ai technologies",
+                        overall: "Most respondents said they had used software with AI technology.",
+                        subName: "Experience using AI technologies",
                         paragraphs: [
-                            "52 respondents said they had experience with software that used Ai technology, such as Synthesizer V or NNSVS/ENUNU, while the remaining 44 respondents said they did not.",
+                            "52 respondents said they had experience with software that used AI technology, such as Synthesizer V or NNSVS/ENUNU, while the remaining 44 respondents said they did not.",
                             "Rather than being completely skewed to one side or the other, the proportions were balanced."
                         ],
                         chartId: "chart20",
                     },
                     {
                         name: "Advantages of AI Technology",
-                        overall: "The biggest benefit of Ai technology is the improvement in vocal synthesis quality.",
-                        subName: "What are the advantages of Ai technology?",
+                        overall: "The biggest benefit of AI technology is the improvement in vocal synthesis quality.",
+                        subName: "What are the advantages of AI technology?",
                         paragraphs: [
                             "31 respondents said that improved compositing quality was the biggest benefit, and 30 respondents said that being able to showcase great quality with less effort was an advantage.",
                             "In addition, 12 respondents said it was easier to use, while 10 and 7 respondents selected the increased clarity of pronunciations and various expressions, respectively."
@@ -1914,8 +1914,8 @@ const strings = {
                     },
                     {
                         name: "Disadvantages of AI Technology",
-                        overall: "The major drawback of software using Ai technology was the increased cost.",
-                        subName: "What are the inconveniences of Ai technology?",
+                        overall: "The major drawback of software using AI technology was the increased cost.",
+                        subName: "What are the inconveniences of AI technology?",
                         paragraphs: [
                             "23 respondents said the increased purchase cost was the biggest downside, and 16 respondents said the pronunciation adjustment was frustrating.",
                             "Also, 15 respondents said they were uncomfortable with the increase in hardware specifications, and finally, subtle noise and increased synthesis time were picked by 11 and 9 respondents, respectively."
@@ -2072,7 +2072,7 @@ const strings = {
                 question: "What is your favorite singing voice synthesis software? (Up to 3)",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NEUTRINO",
@@ -2185,7 +2185,7 @@ const strings = {
                 question: "What singing voice synthesis software do you mainly use? (Up to 3)",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NEUTRINO",
@@ -2237,7 +2237,7 @@ const strings = {
                 question: "Are there any additional singing voice synthesis software that you would like to use or are interested in?",
                 labels: [
                     "Vocaloid",
-                    "CeVIO/CeVIO Ai/VoiSona",
+                    "CeVIO/CeVIO AI/VoiSona",
                     "Synthesizer V",
                     "UTAU/OpenUTAU",
                     "NNSVS/ENUNU",
@@ -2382,7 +2382,7 @@ const strings = {
                 "User Trends",
                 "Non Users",
                 "Expert Users",
-                "Ai Technology",
+                "AI Technology",
                 "Feedbacks",
             ],
             subSection: {
