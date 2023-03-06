@@ -81,6 +81,7 @@ window.addEventListener("scroll", (event) => {
     trackSubSectionMenu();
 });
 
+// language update
 let el = document.getElementById("lang");
 el.addEventListener("change", () => {
     let langCode = el.options[el.selectedIndex].value;
@@ -100,5 +101,7 @@ el.addEventListener("change", () => {
         value.setAttribute("lang", langCode);
     });
 
-    //TODO: footer add
+    document.querySelectorAll("my-footer").forEach((value) => {
+        value.setAttribute("lang", langCode);
+    })
 }, false);

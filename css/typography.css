@@ -45,4 +45,9 @@ h4 {
     width: 60vw;
     font-size: 1.7vw;
 }
-
+.detailed {
+    font-size: 2.4vh;
+}
+.detailed > li {
+    margin-bottom: 0.7vh;
+}

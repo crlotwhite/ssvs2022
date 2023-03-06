@@ -119,10 +119,22 @@ class SubSection extends HTMLElement {
 
             // add paragraphs
             const paragraphs = subSectionStrings.paragraphs;
-            for (let i=0;i<paragraphs.length;i++) {
-                const p = document.createElement("p");
-                p.innerHTML = paragraphs[i];
-                detail.appendChild(p);
+            if (subSectionStrings.chartId !== "") {
+                for (let i=0;i<paragraphs.length;i++) {
+                    const p = document.createElement("p");
+                    p.innerHTML = paragraphs[i];
+                    detail.appendChild(p);
+                }
+            } else {
+                const ul = document.createElement('ul');
+                ul.classList.add("detailed");
+                detail.appendChild(ul);
+
+                for (let i=0;i<paragraphs.length;i++) {
+                    const li = document.createElement('li');
+                    li.innerHTML = paragraphs[i];
+                    ul.appendChild(li);
+                }
             }
         }
 

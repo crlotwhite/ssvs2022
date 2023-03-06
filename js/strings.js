@@ -381,15 +381,43 @@ const strings = {
                         chartId: "chart30",
                     },
                     {
-                        name: "A",
-                        overall: "A",
-                        subName: "A",
+                        name: "Detailed improvement",
+                        overall: "The messages below are a list of comments about improvements needed to the questionnaire.",
+                        subName: "What is lacking in the questionnaire?",
                         paragraphs: [
-                            "A"
+                            "I think it's better to structure the question with a little more detail.",
+                            "I don't know what cross lingual is",
+                            "A lot of software doesn't support macOS.",
+                            "Some questions, such as the reason question, would be better with multiple choices rather than a single answer.",
+                            "Improvements in ambiguous English expressions",
+                            "Include questions that discuss vocal type, style, or genre",
+                            "I felt a little difficult answering some of the questions.",
+                            "Section 2 (Non-user) is not about speech synthesis.",
+                            "Consider getting someone to proofread and edit your English for clarity.",
+                            "Nothing is ever perfect",
+                            "The questions are phrased weirdly",
+                            "Consider including \"not applicable\" or \"don't know\" options for more questions.",
+                            "Questions shoud be dependent on the previous answers."
+                        ],
+                        chartId: ""
+                    },
+                    {
+                        name: "Other",
+                        overall: "The messages below are other things you'd like to see improved, or things you'd like to say to the researcher.",
+                        subName: "And then...",
+                        paragraphs: [
+                            "It would be nice if there were AI text-to-speech software and requirements that can be used freely by the general public in Korea, like CeVIO AI.",
+                            "Good luck with your project!",
+                            "A well-structured tutorial would be useful for new users.",
+                            "Merry Christmas!",
+                            "It would be nice to be able to talk/rap with speech synthesis.",
+                            "I hope you're making good progress on this.",
+                            "Vocaloid synthesis is too slow. But it would be great to see a noticeable improvement.",
+                            "I'm looking forward to seeing results that can be published in the future, either in closed source development or in the form of a paper.",
+                            "In my opinion, a singing synth where you have a lot of control and can create and customize your own singer is cooler.",
                         ],
                         chartId: ""
                     }
-
                 ]
             },
         ],
