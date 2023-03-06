@@ -393,6 +393,14 @@ const strings = {
                 ]
             },
         ],
+        footer: {
+            h1: "Thank you for reading",
+            h2: "Translation by:",
+            authors: [
+                "crlotwhite"
+            ],
+            p: "If you would like to add new translations or report translation issues, please create an issue or PR in the GitHub repository below."
+        },
         chart: {
             common: {
                 label: "The number of responses",
@@ -762,7 +770,9 @@ const strings = {
                 ],
                 s5: [
                     "Engagement routes",
-                    "Needed Improvement"
+                    "Sections needing improvement",
+                    "Detailed improvement",
+                    "Other"
                 ]
             },
             language: {

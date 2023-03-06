@@ -29,6 +29,17 @@ language: {
 }
 ```
 
+and add author too
+```javascript
+footer: {
+    ...
+    authors: [
+        "crlotwhite"
+    ],
+    ...
+        },
+```
+
 But don't change following items:
 - Section Name
 - Software name
@@ -219,4 +230,23 @@ This is navbar
         </select>
     </div>
 </nav>
+```
+
+This is footer
+```html
+<footer>
+    <h1>
+        Thank you for reading
+    </h1>
+    <h2>
+        Translation by:
+    </h2>
+    <ul>
+        <li>crlotwhite</li>
+    </ul>
+    <p>
+        If you would like to add new translations or report translation issues, please create an issue or PR in the GitHub repository below.
+    </p>
+    <a href="https://github.com/crlotwhite/ssvs2022">https://github.com/crlotwhite/ssvs2022</a>
+</footer>
 ```

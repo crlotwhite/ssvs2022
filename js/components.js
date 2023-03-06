@@ -379,3 +379,59 @@ class NavMenu extends HTMLElement {
 }
 customElements.define('nav-menu', NavMenu);
 
+class Footer extends HTMLElement {
+    render() {
+        // clear first
+        this.innerHTML = '';
+
+        // get strings from
+        const lang = this.getAttribute("lang");
+        let currentLanguageStrings = strings["en"];
+
+        if (lang != null) {
+            currentLanguageStrings = strings[lang];
+        }
+
+        const footerStrings = currentLanguageStrings.footer;
+
+        this.classList.add("footer");
+
+        const h1 = document.createElement("h1");
+        h1.innerHTML = footerStrings.h1;
+        this.appendChild(h1);
+
+        const h2 = document.createElement("h2");
+        h2.innerHTML = footerStrings.h2;
+        this.appendChild(h2);
+
+        const ul = document.createElement("ul");
+        this.appendChild(ul);
+
+        for (let i=0;i<footerStrings.authors.length;i++) {
+            const li = document.createElement("li");
+            li.innerHTML = footerStrings.authors[i];
+            ul.appendChild(li);
+        }
+
+        const p = document.createElement("p");
+        p.innerHTML = footerStrings.p;
+        this.appendChild(p);
+
+        const a = document.createElement("a");
+        a.href = "https://github.com/crlotwhite/ssvs2022";
+        a.innerHTML = "https://github.com/crlotwhite/ssvs2022";
+        this.appendChild(a);
+    }
+
+    static get observedAttributes() {
+        return ["lang"];
+    }
+
+    connectedCallback() {
+        this.render();
+    }
+    attributeChangedCallback() {
+        this.render();
+    }
+}
+customElements.define('my-footer', Footer);
