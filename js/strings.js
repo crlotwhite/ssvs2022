@@ -1626,41 +1626,41 @@ const strings = {
         }
     },
     jp: {
-        headerText: "In December 2022, 96 respondents from various communities around the world shared their views on Vocaloid fandom tendencies, software experience, and artificial intelligence technology.",
+        headerText: "2022年12月、ボカロイドファンダムの性向とソフトウェア経験、人工知能技術などに対する世界の多様なコミュニティの回答者96人が意見を共有したと明らかにしました。",
         overallCard: [
             {
-                name: "User Trends",
+                name: "ユーザーのトレンド",
                 paragraphs: [
-                    "Analyzes the fandom.",
-                    "It covers topics such as sex ratios, favorite genres of content, etc."
+                    "ボーカロイドファンダム分析",
+                    "ボーカロイドファンダムの性比、好むコンテンツジャンルなどのテーマをカバーします。"
                 ]
             },
             {
                 name: "Non the software user",
                 paragraphs: [
-                    "Analyze the barriers to entry for the software.",
-                    "It asks why they haven't tried it and what needs to be done to address them."
+                    "プログラムの使用を防ぐエントリーバリア分析。",
+                    "なぜ試していなかったのか、そしてそれを解決するために何をすべきか聞きます。"
                 ]
             },
             {
                 name: "Experience with the software",
                 paragraphs: [
-                    "Analyze the opinions and experiences of creators.",
-                    "It covers how creators got started, the most popular software they use, and pros and cons of their software."
+                    "アーティストやクリエイターの意見や経験分析。",
+                    "回答者がどのように入門したのか、そして最もよく使われるソフトウェアとソフトウェアの長所と短所を取り上げます。"
                 ]
             },
             {
                 name: "AI in Singing Voice Synthesis",
                 paragraphs: [
-                    "Analyzes opinions on AI technology and cross-lingual synthesis techniques.",
-                    "It analyzes various people's opinions on the current state of the recent technology and analyzes their validity through questions related to my research."
+                    "AI技術と多言語合成技術に関する意見を分析",
+                    "最近の技術の現状について、さまざまな回答者の意見を分析し、私の研究に関連する質問を通してその妥当性を分析します。"
                 ]
             },
             {
                 name: "Survey feedback",
                 paragraphs: [
-                    "This is the feedback on the questionnaire.",
-                    "It analyzes the level of community participation, and reflects on the results of the survey."
+                    "アンケート調査へのフィードバック",
+                    "コミュニティ参加率を分析し、調査結果を反映します。"
                 ]
             }
         ],
@@ -1668,81 +1668,81 @@ const strings = {
             {
                 name: "About",
                 paragraphs: [
-                    "A brief introduction to each section."
+                    "各セクションについて簡単に説明します。"
                 ],
             },
             {
                 name: "User Trends",
                 paragraphs: [
-                    "Let's get to know the fandom."
+                    "ボーカロイドファンダムについて学びましょう。"
                 ],
                 subSection: [
                     {
-                        name: "Gender",
-                        overall: "It showed that the ratio of men and women and the third sex was about 30% very equal.",
-                        subName: "The gender ratio of a fandom",
+                        name: "性別",
+                        overall: "男性と女性と第3の性の比例がおよそ30%非常に均等であることを見せました。",
+                        subName: "ファンダムの性比",
                         paragraphs: [
-                            "The 37 respondents identified themselves as male, and another 38 respondents identified themselves as female.",
-                            "Also, 16 respondents said they were neither, and the remaining 5 respondents were reluctant to identify their sex."
+                            "37人の回答者が自分を男性だと明らかにしました。別の38人の回答者が自分を女性だと明らかにしました。",
+                            "また、16人の回答者は自分がどちらでもないと言い、残りの5人の回答者は自分の性別を明らかにすることを消極的にしました。"
                         ],
                         chartId: "chart1",
                     },
                     {
-                        name: "The Favourite Software",
-                        overall: "Vocaloid is the most popular choice.",
-                        subName: "Which is the most preferred?",
+                        name: "お気に入りのソフトウェア",
+                        overall: "ボーカロイドは最も多くの選択を受けました。",
+                        subName: "どのソフトウェアが最も好まれていますか？",
                         paragraphs: [
-                            "Synthesizer V was the second most popular with 52, followed by UTAU/OpenUTAU with 51, showing that it is still very popular.",
-                            "CeVIO/CeVIO AI/Voisona also got 29, and DeppVocal2 also showed its influence with 16."
+                            "Synthesizer Vは2番目に多くの選択を受けており、その後UTAU / OpenUTAUは51人の選択を受けており、依然として人気が高いことを見せています。",
+                            "また、CeVIO/CeVIO AI/Voisonaも29人の選択を受け、最後にDeppVocal2も16人の選択を受けて影響力を見せました。"
                         ],
                         chartId: "chart2",
                     },
                     {
-                        name: "Introduction",
-                        overall: "The most way of entry was the internet.",
-                        subName: "How to know it?",
+                        name: "入門ルート",
+                        overall: "主な入門ルートはインターネットでした。",
+                        subName: "どのように知りましたか。",
                         paragraphs: [
-                            "36 respondents said they found us through an internet search, followed closely by 35 who found us through a video platform's recommendation algorithm.",
-                            "Furthermore, 9 and 6 respondents said they were introduced to it through recommendations from friends and some media such as gaming, respectively, while the remaining 11 said they were introduced through social media or other means."
+                            "36人の回答者がインターネット検索で知り合ったと答えました。動画プラットフォームの推奨アルゴリズムで知り合った回答者も35人で、わずかな違いを見せています。",
+                            "そのほかにも友人の推薦やゲームなどの媒体を通じて知った回答者がそれぞれ9人と6人であり、残りの11人はソーシャルメディアや他の経路を通じて知ることになったそうです。"
                         ],
                         chartId: "chart3",
                     },
                     {
-                        name: "Most Favorite Content",
-                        overall: "The most preferred content by respondents was songs.",
-                        subName: "Which content is the most preferred?",
+                        name: "お気に入りのコンテンツ",
+                        overall: "最も回答者が好むコンテンツは曲（音楽）でした。",
+                        subName: "お気に入りのコンテンツは何ですか。",
                         paragraphs: [
-                            "With 87 respondents favoring song content, it was the most overwhelming, while similar vocal covers were the next most popular, with 36 respondents choosing them.",
-                            "There were also some respondents who preferred mixed media, games, and 3D animations, with 18, 17, and 10 respondents respectively."
+                            "曲（音楽）コンテンツを好む回答者が87人で最も圧倒的で、これに似たボーカルカバーも36人の回答者の選択を受け、次に多くの数値を見せました。",
+                            "また、メディアミックス、ゲーム、3Dアニメーションなどを好む回答者も、それぞれ18、17、10人で複合的なコンテンツを好む回答者も一部存在しました。"
                         ],
                         chartId: "chart4",
                     },
                     {
-                        name: "Duration",
-                        overall: "Most respondents have seen and liked the above content for at least three years.",
-                        subName: "How long have you been known?",
+                        name: "期間",
+                        overall: "ほとんどの回答者は少なくとも3年以上上記のコンテンツに触れていて、好きでした。",
+                        subName: "どのくらいの時間がありましたか。",
                         paragraphs: [
-                            "The number of respondents who had been exposed to content for more than 10 years was the highest with 27 people, followed by those who had been exposed to content for 7 to 9 years with 24 people.",
-                            "In addition, there were 22 respondents who had encountered the content for 1 to 3 years and 18 respondents who had encountered the content for 4 to 6 years. Overall, the proportion of all responses was uniform."
+                            "10年以上の期間にコンテンツに接してきた回答者が27人で最も多く、続いて7年から9年間接してきた人が24人で次に多くの割合を占めました。",
+                            "また、1年から3年間、そのコンテンツに接してきた回答者が22人で、4年から6年の間に接してきた回答者が18人で、全体的にすべての回答の割合が均一でした。"
                         ],
                         chartId: "chart5",
                     },
                     {
-                        name: "Reason",
-                        overall: "The most popular reason was the voice's timbre.",
-                        subName: "Why you have liked it?",
+                        name: "理由",
+                        overall: "最も多くの人が選んだ理由は、その音源の音色でした。",
+                        subName: "なぜ気に入りですか。",
                         paragraphs: [
-                            "32 respondents said they liked the character's voice, followed closely by 31 who said they liked it because they were intrigued by the technology.",
-                            "There are also significant numbers of respondents who like the charming characters themselves or are interested in the content type itself, at 13 and 12, respectively."
+                            "32人の回答者はそのキャラクターの音色が好きだと答え、その技術に興味を持って好きだと答えた回答者は31人とわずかな違いを見せました。",
+                            "また、魅力的なキャラクターそのものが好きか、そのコンテンツタイプそのものに関心を持っている回答者がそれぞれ13人、12人で意味のある数値を見せています。"
                         ],
                         chartId: "chart6",
                     },
                     {
-                        name: "Using Experience",
-                        overall: "Almost all respondents have experience using related software.",
-                        subName: "Have you ever used Vocaloid or a related program?",
+                        name: "プログラム使用経験",
+                        overall: "ほとんどの回答者が関連プログラムを使った経験がありました。",
+                        subName: "ボーカロイドや関連プログラムを使ったことがありますか。",
                         paragraphs: [
-                            "Contrary to the expectation that only a small percentage of respondents used the software directly because it requires specialized knowledge, a large percentage of respondents said that they had experience using the software.",
+                            "専門知識が必要なプログラムだと少ない割合の回答者だけが直接使ってみただろうという予想とは異なり、むしろ過度に多くの割合の回答者がそのプログラムを使った経験がありました。",
                         ],
                         chartId: "chart7",
                     },
@@ -1751,26 +1751,26 @@ const strings = {
             {
                 name: "Non the software user",
                 paragraphs: [
-                    "Let's talk about the barriers to entry for the software."
+                    "プログラムの参入障壁について学びましょう。"
                 ],
                 subSection: [
                     {
-                        name: "Difficulty",
-                        overall: "The majority of non-user respondents said the need for musical knowledge was the biggest barrier to entry.",
-                        subName: "Why did they fail in their attempts to use the software?",
+                        name: "難しさ",
+                        overall: "大半の非ユーザー回答者は音楽的知識の必要性が最大の参入障壁だと答えました。",
+                        subName: "プログラムの使用に失敗した理由は何ですか。",
                         paragraphs: [
-                            "As expected, the need for musical knowledge and the cost of specialized software were mentioned as the main reasons.",
-                            "There were also comments that they didn't try it because they weren't interested in the software."
+                            "予想通りプロのプログラムなので、音楽的知識の必要性とコストの問題が主な原因と言われていました。",
+                            "また、当初、そのプログラムに興味がないので試していないという意見もありました。"
                         ],
                         chartId: "chart8",
                     },
                     {
-                        name: "Improvement",
-                        overall: "The most improvement needed for popularization is promotion.",
-                        subName: "What would it take to get them to use the software?",
+                        name: "改善点",
+                        overall: "大衆化のために最初に必要な改善点はプロモーションだと答えました",
+                        subName: "彼らにプログラムを使用させるにはどんな努力が必要ですか。",
                         paragraphs: [
-                            "Promotions such as contests and fixes to frustrating usability were cited as the most needed improvements.",
-                            "The price and accessibility of the product is a barrier to adoption, so it's likely that something needs to be done to make it easier to buy."
+                            "コンテストのような広報と不便な使用性の改善が最も必要な改善点でありました。",
+                            "製品の価格とアクセシビリティが不便であるため、より簡単に購入できる方法が必要になると推定されています。"
                         ],
                         chartId: "chart9",
                     },
@@ -1779,36 +1779,36 @@ const strings = {
             {
                 name: "Experience with the software",
                 paragraphs: [
-                    "Let's talk about the experience of experts."
+                    "プロのユーザーの経験と意見について学びましょう。"
                 ],
                 subSection: [
                     {
-                        name: "Work Experience",
-                        overall: "Most respondents had three years or less of experience.",
-                        subName: "Years of using the software",
+                        name: "使用キャリア",
+                        overall: "ほとんどの回答者は3年以下の使用経験を持っていました。",
+                        subName: "どのくらい使用してみましたか。",
                         paragraphs: [
-                            "61 respondents reported three years or less of experience, followed by 13 respondents with four to six years of experience.",
-                            "There was a small but significant number of 15 respondents with seven or more years of experience."
+                            "61人の回答者が3年以下の使用経験を持っていると答え、4-6年の使用経験を持つ回答者が13人で次に多きました。",
+                            "7年以上の使用経験を持つ回答者も15人で少なくない数値や少ない割合を占めました。"
                         ],
                         chartId: "chart10",
                     },
                     {
-                        name: "Learning",
-                        overall: "Surprisingly, most respondents said they learned by trying it out.",
-                        subName: "How they learned Vocaloid",
+                        name: "学習方法",
+                        overall: "ほとんどの回答者は、驚くべきことに自分で試して学んだと言います。",
+                        subName: "ボーカロイドを学ぶ方法",
                         paragraphs: [
-                            "More than half of the respondents said they learned how to use the software by trying it out, while 20 respondents said they learned from internet posts.",
-                            "In addition, 11 respondents said they learned by watching online video lessons, and 7 people said they already have musical skills.",
-                            "Fewer respondents said they learned from an official manual, suggesting it wasn't very helpful."
+                            "半分以上の回答者が直接使ってみて、プログラムの使い方を学んだと答え、20人の回答者はインターネットの投稿を通じて使い方を身につけたと答えました。",
+                            "また、11人の回答者はオンライン映像講義を通じてこれを学び、7人は音楽分野での経験を通じて使い方を身につけたと答えました。",
+                            "公式マニュアルを通じて学んだという回答者が少なくて、大きく役に立たなかったと推測されます。"
                         ],
                         chartId: "chart11",
                     },
                     {
-                        name: "Proficiency",
-                        overall: "The majority of respondents said they could produce simple content with the software.",
-                        subName: "The level of using the software",
+                        name: "専門性",
+                        overall: "大半の回答者は、そのプログラムを通じた簡単なコンテンツは生産できると答えました。",
+                        subName: "ソフトウェアの熟練度",
                         paragraphs: [
-                            "37 respondents said they had experience uploading their work online, followed by 25 who said they could manipulate simple parameters.",
+                            "37人の回答者は、自分の結果をオンラインにアップロードした経験があると答えたし、その後多くの25人の回答者が簡単なパラメータくらいは操作できると言いました。",
                             "Also, 17 respondents said they could perform simple tasks at the note-taking level, while the remaining 10 respondents said they had the usage level of a professional producer."
                         ],
                         chartId: "chart12",
