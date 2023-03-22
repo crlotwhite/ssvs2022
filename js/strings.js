@@ -1626,41 +1626,41 @@ const strings = {
         }
     },
     jp: {
-        headerText: "2022年12月、ボカロイドファンダムの性向とソフトウェア経験、人工知能技術などに対する世界の多様なコミュニティの回答者96人が意見を共有したと明らかにしました。",
+        headerText: "2022年12月、ボーカロイドファンダムの性向とソフトウェア経験、AI技術などに対する世界の多様なコミュニティの回答者の96人が意見を共有したと明らかにしました。",
         overallCard: [
             {
-                name: "ユーザーのトレンド",
+                name: "User Trends",
                 paragraphs: [
-                    "ボーカロイドファンダム分析",
-                    "ボーカロイドファンダムの性比、好むコンテンツジャンルなどのテーマをカバーします。"
+                    "ボーカロイドファンダムの分析",
+                    "ボーカロイドファンダムの性比、気に入りコンテンツジャンルなどのテーマについて話ます。"
                 ]
             },
             {
                 name: "Non the software user",
                 paragraphs: [
-                    "プログラムの使用を防ぐエントリーバリア分析。",
-                    "なぜ試していなかったのか、そしてそれを解決するために何をすべきか聞きます。"
+                    "プログラムの使用を防ぐエントリーバリアの分析",
+                    "なぜ試していなかったのかと、それを解決するために何をすべきかを聞きます。"
                 ]
             },
             {
                 name: "Experience with the software",
                 paragraphs: [
-                    "アーティストやクリエイターの意見や経験分析。",
-                    "回答者がどのように入門したのか、そして最もよく使われるソフトウェアとソフトウェアの長所と短所を取り上げます。"
+                    "アーティストやクリエイターの意見や経験の分析",
+                    "回答者がどのように入門したのかと、最もよく使われるソフトウェアとソフトウェアの長所と短所について話します。"
                 ]
             },
             {
                 name: "AI in Singing Voice Synthesis",
                 paragraphs: [
-                    "AI技術と多言語合成技術に関する意見を分析",
+                    "AI技術と多言語合成技術に関する意見の分析",
                     "最近の技術の現状について、さまざまな回答者の意見を分析し、私の研究に関連する質問を通してその妥当性を分析します。"
                 ]
             },
             {
                 name: "Survey feedback",
                 paragraphs: [
-                    "アンケート調査へのフィードバック",
-                    "コミュニティ参加率を分析し、調査結果を反映します。"
+                    "アンケートのフィードバック",
+                    "コミュニティ参加率を分析し、アンケートの結果を反映します。"
                 ]
             }
         ],
@@ -1679,21 +1679,21 @@ const strings = {
                 subSection: [
                     {
                         name: "性別",
-                        overall: "男性と女性と第3の性の比例がおよそ30%非常に均等であることを見せました。",
+                        overall: "男性と女性と第3の性の比例がおよそ30%で非常に均等であることを見せました。",
                         subName: "ファンダムの性比",
                         paragraphs: [
-                            "37人の回答者が自分を男性だと明らかにしました。別の38人の回答者が自分を女性だと明らかにしました。",
-                            "また、16人の回答者は自分がどちらでもないと言い、残りの5人の回答者は自分の性別を明らかにすることを消極的にしました。"
+                            "37人の回答者が自分を男性だと答えました。別の38人の回答者が自分を女性だと答えました。",
+                            "また、16人の回答者は自分がどちらでもないと答え、残りの5人の回答者は自分の性別を言いたくないと答えました。"
                         ],
                         chartId: "chart1",
                     },
                     {
                         name: "お気に入りのソフトウェア",
-                        overall: "ボーカロイドは最も多くの選択を受けました。",
-                        subName: "どのソフトウェアが最も好まれていますか？",
+                        overall: "ボーカロイドは最も多く選ばれました。",
+                        subName: "どのソフトウェアが最もお気に入りますか？",
                         paragraphs: [
-                            "Synthesizer Vは2番目に多くの選択を受けており、その後UTAU / OpenUTAUは51人の選択を受けており、依然として人気が高いことを見せています。",
-                            "また、CeVIO/CeVIO AI/Voisonaも29人の選択を受け、最後にDeppVocal2も16人の選択を受けて影響力を見せました。"
+                            "Synthesizer Vは2番目に多く選ばれて、その後５１人がUTAU / OpenUTAUを選んで依然として人気が高いことを見せています。",
+                            "または、２９人がCeVIO/CeVIO AI/Voisonaを選び、最後に１６人がDeppVocal2を選んで影響力を見せました。"
                         ],
                         chartId: "chart2",
                     },
@@ -1702,47 +1702,47 @@ const strings = {
                         overall: "主な入門ルートはインターネットでした。",
                         subName: "どのように知りましたか。",
                         paragraphs: [
-                            "36人の回答者がインターネット検索で知り合ったと答えました。動画プラットフォームの推奨アルゴリズムで知り合った回答者も35人で、わずかな違いを見せています。",
-                            "そのほかにも友人の推薦やゲームなどの媒体を通じて知った回答者がそれぞれ9人と6人であり、残りの11人はソーシャルメディアや他の経路を通じて知ることになったそうです。"
+                            "36人の回答者はインターネットで知り合ったと答えました。３５人の回答者は動画プラットフォームのオススメアルゴリズムで知り合った答えてわずかな違いを見せています。",
+                            "そのほかにも友人の紹介やゲームなどの媒体を通じて知り合った回答者がそれぞれ9人と6人であり、残りの11人はソーシャルメディアや他のルートで知り合ったと答えました。"
                         ],
                         chartId: "chart3",
                     },
                     {
                         name: "お気に入りのコンテンツ",
-                        overall: "最も回答者が好むコンテンツは曲（音楽）でした。",
+                        overall: "最も回答者がお気に入りのコンテンツは曲（音楽）でした。",
                         subName: "お気に入りのコンテンツは何ですか。",
                         paragraphs: [
-                            "曲（音楽）コンテンツを好む回答者が87人で最も圧倒的で、これに似たボーカルカバーも36人の回答者の選択を受け、次に多くの数値を見せました。",
-                            "また、メディアミックス、ゲーム、3Dアニメーションなどを好む回答者も、それぞれ18、17、10人で複合的なコンテンツを好む回答者も一部存在しました。"
+                            "曲（音楽）のコンテンツがお気に入る回答者が87人で最も圧倒的で、これに似たボーカルカバーも36人の回答者から選ばれて次に多くの数値を見せました。",
+                            "または、メディアミックス、ゲーム、3Dアニメーなどがお気に入る回答者もそれぞれ18、17、10人で複合的なコンテンツがお気に入る回答者も一部存在しました。"
                         ],
                         chartId: "chart4",
                     },
                     {
                         name: "期間",
-                        overall: "ほとんどの回答者は少なくとも3年以上上記のコンテンツに触れていて、好きでした。",
+                        overall: "ほとんどの回答者は最小3年以上で上記のコンテンツを使うと好きでした。",
                         subName: "どのくらいの時間がありましたか。",
                         paragraphs: [
-                            "10年以上の期間にコンテンツに接してきた回答者が27人で最も多く、続いて7年から9年間接してきた人が24人で次に多くの割合を占めました。",
-                            "また、1年から3年間、そのコンテンツに接してきた回答者が22人で、4年から6年の間に接してきた回答者が18人で、全体的にすべての回答の割合が均一でした。"
+                            "10年以上の期間にコンテンツを使った回答者が27人で最も多く、続いて7年から9年間使った人が24人で次に多くの割合を占めました。",
+                            "または、1年から3年間、そのコンテンツを使った回答者が22人で、4年から6年の間に使った回答者が18人で、全体的にすべての回答の割合が均一でした。"
                         ],
                         chartId: "chart5",
                     },
                     {
                         name: "理由",
-                        overall: "最も多くの人が選んだ理由は、その音源の音色でした。",
-                        subName: "なぜ気に入りですか。",
+                        overall: "最も多い人が選んだ理由は、その音源の音色でした。",
+                        subName: "なぜお気に入りますか。",
                         paragraphs: [
                             "32人の回答者はそのキャラクターの音色が好きだと答え、その技術に興味を持って好きだと答えた回答者は31人とわずかな違いを見せました。",
-                            "また、魅力的なキャラクターそのものが好きか、そのコンテンツタイプそのものに関心を持っている回答者がそれぞれ13人、12人で意味のある数値を見せています。"
+                            "または、魅力的なキャラクターのものが好きか、そのコンテンツタイプのものにお気に入る回答者がそれぞれ13人、12人で意味のある数値を見せています。"
                         ],
                         chartId: "chart6",
                     },
                     {
-                        name: "プログラム使用経験",
+                        name: "プログラムの使用経験",
                         overall: "ほとんどの回答者が関連プログラムを使った経験がありました。",
                         subName: "ボーカロイドや関連プログラムを使ったことがありますか。",
                         paragraphs: [
-                            "専門知識が必要なプログラムだと少ない割合の回答者だけが直接使ってみただろうという予想とは異なり、むしろ過度に多くの割合の回答者がそのプログラムを使った経験がありました。",
+                            "専門知識が必要なプログラムだから少ない割合の回答者だけが直接使ってみただろうという予想とは異なり、むしろ過度に多い割合の回答者がそのプログラムを使った経験がありました。",
                         ],
                         chartId: "chart7",
                     },
@@ -1751,7 +1751,7 @@ const strings = {
             {
                 name: "Non the software user",
                 paragraphs: [
-                    "プログラムの参入障壁について学びましょう。"
+                    "プログラムのエントリーバリアについて学びましょう。"
                 ],
                 subSection: [
                     {
@@ -1787,17 +1787,17 @@ const strings = {
                         overall: "ほとんどの回答者は3年以下の使用経験を持っていました。",
                         subName: "どのくらい使用してみましたか。",
                         paragraphs: [
-                            "61人の回答者が3年以下の使用経験を持っていると答え、4-6年の使用経験を持つ回答者が13人で次に多きました。",
-                            "7年以上の使用経験を持つ回答者も15人で少なくない数値や少ない割合を占めました。"
+                            "61人の回答者が3年以下の使用経験を持っていると答え、１３人は4-6年の使用経験があると答えて次に多きました。",
+                            "7年以上の使用経験がある回答者も15人で少なくない数値や少ない割合を占めました。"
                         ],
                         chartId: "chart10",
                     },
                     {
-                        name: "学習方法",
-                        overall: "ほとんどの回答者は、驚くべきことに自分で試して学んだと言います。",
+                        name: "学習の方法",
+                        overall: "ほとんどの回答者は驚くべきことに自分で試して学んだと言いました。",
                         subName: "ボーカロイドを学ぶ方法",
                         paragraphs: [
-                            "半分以上の回答者が直接使ってみて、プログラムの使い方を学んだと答え、20人の回答者はインターネットの投稿を通じて使い方を身につけたと答えました。",
+                            "半分以上の回答者は直接使ってみて、プログラムの使い方を学んだと答え、20人の回答者はインターネットの投稿を通じて使い方を身につけたと答えました。",
                             "また、11人の回答者はオンライン映像講義を通じてこれを学び、7人は音楽分野での経験を通じて使い方を身につけたと答えました。",
                             "公式マニュアルを通じて学んだという回答者が少なくて、大きく役に立たなかったと推測されます。"
                         ],
@@ -1808,69 +1808,69 @@ const strings = {
                         overall: "大半の回答者は、そのプログラムを通じた簡単なコンテンツは生産できると答えました。",
                         subName: "ソフトウェアの熟練度",
                         paragraphs: [
-                            "37人の回答者は、自分の結果をオンラインにアップロードした経験があると答えたし、その後多くの25人の回答者が簡単なパラメータくらいは操作できると言いました。",
-                            "Also, 17 respondents said they could perform simple tasks at the note-taking level, while the remaining 10 respondents said they had the usage level of a professional producer."
+                            "37人の回答者は、自分の結果をオンラインにアップロードした経験があると答えたし、その後多くの25人の回答者が簡単なパラメータくらいは操作できると答えました。",
+                            "さらに、17人の回答者はノート入力レベルの簡単な作業ができると答え、残りの10人の回答者はプロフェッショナルなプロデューサーレベルの使用レベルだと答えました。"
                         ],
                         chartId: "chart12",
                     },
                     {
-                        name: "Most Using Software",
-                        overall: "The most popular software is the UTAU series and Vocaloid.",
-                        subName: "What is the most popular software?",
+                        name: "よく使うプログラム",
+                        overall: "最も多い人が使うプログラムはウタウとボーカロイドです。",
+                        subName: "どのプログラムが最もよく使われますか。",
                         paragraphs: [
-                            "Vocaloid and UTAU Series were the most popular choices with 47 and 42 respondents, respectively, followed by Synthesizer V with 36.",
-                            "DeepVocal and CeVIO series was also chosen by 16 and 12 respondents, respectively, with the occasional respondent using VOCALINA, NNSVS, NEUTRINO, etc."
+                            "ボーカロイドとウタウを使う回答者がそれぞれ47人と42人で最も多く、続いてSynthesizer Vを使う回答者が36で次に多い選択を受けました。",
+                            "また、Deep vocalとCevioがそれぞれ16人と12人の選択を受けており、VOCALINA、NNSVS、NEUTRINOなどを使う回答者も時々存在しました。"
                         ],
                         chartId: "chart13",
                     },
                     {
-                        name: "Operating System",
-                        overall: "The operating system most people use is Windows 10 or Windows 11.",
-                        subName: "What environment do you work in?",
+                        name: "オペレーティングシステム",
+                        overall: "最も多い人が使うオペレーティングシステムはWindows10とかWindows11です。",
+                        subName: "どの環境で作業しますか。",
                         paragraphs: [
-                            "The overwhelming majority of respondents said they work on the latest version of Windows.",
-                            "The remaining 10 respondents said they use Mac OS, iPad OS, Linux, etc."
+                            "圧倒的に多い回答者は最新バージョンのウィンドウで作業していると答えました。",
+                            "残りの10人の回答者は、macOs、iPadOS、Linuxなどを使うと答えました。"
                         ],
                         chartId: "chart14",
                     },
                     {
-                        name: "Advantages",
-                        overall: "The main reason they used the software was that they liked the character's voice.",
-                        subName: "Why do you use the software?",
+                        name: "利点",
+                        overall: "そのプログラムを使う主な理由はキャラクターの声が好きだからです。",
+                        subName: "なぜそのプログラムを使いますか。",
                         paragraphs: [
-                            "43 respondents said they used the software because they liked the characters, followed by ease of use and good synthesis quality (17 and 13, respectively).",
-                            "A surprising number of people said they use the UTAU series or DeepVocal because it's free."
+                            "43人の回答者がキャラクターが好きになってそのプログラムを使いましたと答え、次に便利な使いやすさと優れた合成品質がそれぞれ17人、13人の選択を受けました。",
+                            "思ったより多い人がウタウやDeepVocalが無料だから使っていると答えました。"
                         ],
                         chartId: "chart15",
                     },
                     {
-                        name: "Inconvenience",
-                        overall: "The most inconvenient factor about their software is the voice configuration.",
-                        subName: "What was the most inconvenient?",
+                        name: "不便なこと",
+                        overall: "自分が使っているプログラムの最も不便なことは音源設定だと答えました。",
+                        subName: "何が不便でしたか。",
                         paragraphs: [
-                            "41 respondents said that the music settings in UTAU or DeepVocal were too complicated, followed by the cost of commercial software like Vocaloid, which was chosen by 31 respondents.",
-                            "The lack of native language support and complex parameters were followed by 23 and 22 respondents, respectively, and the lack of a community site and limited usage environment were chosen by 12 and 10 respondents, respectively."
+                            "41人の回答者がウタウやディープボーカルの音源設定が複雑すぎると答えました。続いてボーカロイドなどの商用プログラムの費用負担が31人の選択を受けました。",
+                            "また、母国語をサポートしていないのと複雑なパラメータがそれぞれ23人、22人で後に続いて、関連コミュニティサイトの不在と使用環境の制約がそれぞれ12人、10人で多くの選択を受けました。"
                         ],
                         chartId: "chart16",
                     },
                     {
-                        name: "Additional Software",
-                        overall: "In terms of software to use in the future, CeVIO and Vocaloid received the most attention.",
-                        subName: "Software to be considered to use in the future",
+                        name: "さらに使うプログラム",
+                        overall: "今後使うソフトウェアとしてCeVIOとVocaloidが最も注目されています。",
+                        subName: "今後使う予定のプログラム",
                         paragraphs: [
-                            "CeVIO and Vocaloid are the most popular choices with 22 and 21 respondents, respectively.",
-                            "Also, The next highest number of respondents (10 each) are considering using Synthesizer V or don't plan to use any other tools.",
+                            "CeVIOとボーカロイドがそれぞれ22人、21人と最も多く考慮されており、Synthesizer Vの使用を検討したり、他のツールを追加使う予定がないという回答者がそれぞれ10人で次に多いんでした。",
+                            "また、NNSVSやPiapro Studio NT、そしてUTAUを検討している回答者がそれぞれ7人と6人、5人で意味のある数値を見せてくれました。",
                             "Moreover, there are significant numbers of respondents considering NNSVS, Piapro Studio NT, and UTAU, with 7, 6, and 5 respectively."
                         ],
                         chartId: "chart17",
                     },
                     {
-                        name: "Reason",
-                        overall: "The main reasons mentioned for wanting to try a new tool were the characters.",
-                        subName: "Why are you considering trying additional tools?",
+                        name: "理由",
+                        overall: "新しいツールに挑戦しようとする理由で、そのソフトウェアだけのキャラクターと新しいソフトウェアを試すことが主な理由に挙げられました。",
+                        subName: "もっと使いたい理由は何ですか。",
                         paragraphs: [
-                            "Similar to the reasons for choosing their primary software, the proprietary character of the software was cited as the primary reason.",
-                            "The next largest group, 24 respondents, said they wanted to try new software, and 12 respondents said they were considering moving because of better compositing quality."
+                            "主に使用するソフトウェアの選択の理由と同様に、そのソフトウェアだけの排他的なキャラクターが最も主な理由として言及されました。",
+                            "また、次に多くの24人の回答者が新しいソフトウェアを試してみたかったと答え、12人の回答者がより良い合成品質のために使うと答えました。"
                         ],
                         chartId: "chart18",
                     },
@@ -1879,118 +1879,118 @@ const strings = {
             {
                 name: "AI in Singing Voice Synthesis",
                 paragraphs: [
-                    "Let's talk about the recent technologies."
+                    "最新の技術について学びましょう。"
                 ],
                 subSection: [
                     {
-                        name: "Opinion about AI",
-                        overall: "Most respondents had a positive opinion of AI technology.",
-                        subName: "The influence of AI technology",
+                        name: "AI技術に対する意見",
+                        overall: "ほとんどの回答者はAI技術について肯定的な意見を示しました。",
+                        subName: "AI テクノロジーの影響",
                         paragraphs: [
-                            "65 respondents said they were excited about advances in artificial intelligence technology, and 11 said it would make their software easier to use.",
-                            "However, 9 respondents worried that this would devalue their output, and 3 respondents worried that they would have to learn new skills to use the software."
+                            "65人の回答者が人工知能技術の発展に期待されると答え、11人の回答者はこれがソフトウェアを使いやすくなると答えた。",
+                            "しかし、9人の回答者はこれが彼らの成果の価値を落とすことを心配し、3人の回答者をこのために新しい技術具術を学ばなければならないことを心配しました。"
                         ],
                         chartId: "chart19",
                     },
                     {
-                        name: "Experience of AI Technology",
-                        overall: "Most respondents said they had used software with AI technology.",
-                        subName: "Experience using AI technologies",
+                        name: "AI技術の経験",
+                        overall: "ほとんどの回答者は、AI技術のソフトウェアを使用したことがありますと答えました。",
+                        subName: "AI技術の使用経験",
                         paragraphs: [
-                            "52 respondents said they had experience with software that used AI technology, such as Synthesizer V or NNSVS/ENUNU, while the remaining 44 respondents said they did not.",
-                            "Rather than being completely skewed to one side or the other, the proportions were balanced."
+                            "52人の回答者はSynthesizer VやNNSVS / ENUNUなどのAI技術のソフトウェアを使用したことがあると答え、残りの44人の回答者はそうではないと答えました。",
+                            "両側の比率が完全に偏るのではなく、バランスのとれた割合を見せています。"
                         ],
                         chartId: "chart20",
                     },
                     {
-                        name: "Advantages of AI Technology",
-                        overall: "The biggest benefit of AI technology is the improvement in vocal synthesis quality.",
-                        subName: "What are the advantages of AI technology?",
+                        name: "AI技術の利点",
+                        overall: "AI技術が与える最大の利点は歌唱合成品質の向上です。",
+                        subName: "AI技術が与える有益な点",
                         paragraphs: [
-                            "31 respondents said that improved compositing quality was the biggest benefit, and 30 respondents said that being able to showcase great quality with less effort was an advantage.",
-                            "In addition, 12 respondents said it was easier to use, while 10 and 7 respondents selected the increased clarity of pronunciations and various expressions, respectively."
+                            "31人の回答者が合成品質の向上を最大のメリットとして挙げた。30人の回答者が少ない労力で優れたクオリティを見せるのができることを利点として述べました。",
+                            "また、12人の回答者は使いやすくなることを利点として言及し、さまざまな表現と発音の明確性の増加をそれぞれ10人、7人の回答者が選びました。"
                         ],
                         chartId: "chart21",
                     },
                     {
-                        name: "Disadvantages of AI Technology",
-                        overall: "The major drawback of software using AI technology was the increased cost.",
-                        subName: "What are the inconveniences of AI technology?",
+                        name: "AI技術の欠点",
+                        overall: "AI技術のソフトウェアの最大の欠点は増加したコストでした。",
+                        subName: "AI技術が与える不便な点",
                         paragraphs: [
-                            "23 respondents said the increased purchase cost was the biggest downside, and 16 respondents said the pronunciation adjustment was frustrating.",
-                            "Also, 15 respondents said they were uncomfortable with the increase in hardware specifications, and finally, subtle noise and increased synthesis time were picked by 11 and 9 respondents, respectively."
+                            "23人の回答者が購入コストの増加が最大の欠点であると答え、16人の回答者は発音調整がうまく適用されないのが不便だと答えました。",
+                            "また、15人の回答者が動作仕様の増加が不便だと答え、最後に微妙なノイズと合成時間の増加がそれぞれ11人、9人の回答者の選択を受けました。"
                         ],
                         chartId: "chart22",
                     },
                     {
-                        name: "Experience of Cross-lingual Synthesis",
-                        overall: "Most respondents said they had no experience with cross-lingual synthesis technology.",
-                        subName: "Have you ever used cross-lingual synthesis?",
+                        name: "クロス言語合成の経験",
+                        overall: "ほとんどの回答者がクロス言語合成技術を使った経験がないと答えました。",
+                        subName: "クロス言語合成の経験",
                         paragraphs: [
-                            "The majority of respondents (61) had not encountered cross-lingual synthesis technology, while the remaining 35 respondents said they had not.",
+                            "クロス言語合成技術に触れていない回答者が過半数の61人であり、残りの35人の回答者は経験していなかったと答えました。",
                         ],
                         chartId: "chart23",
                     },
                     {
-                        name: "Quality of Cross-lingual Synthesis",
-                        overall: "Most respondents are unsure about the quality of cross-lingual synthesis.",
-                        subName: "The current state of cross-lingual synthesis technology",
+                        name: "クロス言語合成の品質",
+                        overall: "ほとんどの回答者がクロス言語合成の品質についてよくわからないと答えました。",
+                        subName: "クロス言語合成技術の現住所",
                         paragraphs: [
-                            "42 respondents said they weren't sure, while 40 respondents said they saw a lot of improvement.",
-                            "2 respondents said it's still not good, but only 12 said it's getting closer to human-like."
+                            "42人の回答者がよく分からないと答え、40人の回答者が多くの発展が見られると答えました。",
+                            "また、2人の回答者はまだ良くないと答えたが、12人の回答者は人間に近づいたと答えました。"
                         ],
                         chartId: "chart24",
                     },
                     {
-                        name: "What cross-lingual synthesis lack",
-                        overall: "The biggest problem with cross-lingual synthesis is the limited number of supported languages.",
-                        subName: "What is lacking in cross-lingual synthesis?",
+                        name: "クロス言語合成の欠如",
+                        overall: "クロス言語合成の最大の問題としてサポートされている言語が限定的です。",
+                        subName: "クロス言語合成の欠如",
                         paragraphs: [
-                            "35 respondents said that there were not enough supported languages, and 28 respondents said that they were only available in certain software.",
-                            "In addition, 18 respondents said the pronunciation was still unnatural, and the remaining 15 respondents said they didn't know through other categories."
+                            "35人の回答者はサポートされている言語が足りないと答え、28人の回答者は特定のソフトウェアでのみ利用可能であると答えました。",
+                            "また、18人の回答者は発音がまだ不自然であると答え、残りの15人の回答者は他の項目で知らないと答えました。"
                         ],
                         chartId: "chart25",
                     },
                     {
-                        name: "Necessity of cross-lingual synthesis",
-                        overall: "The majority of respondents said they need cross-lingual synthesis.",
-                        subName: "Is cross-lingual synthesis required?",
+                        name: "クロス言語合成の必要性",
+                        overall: "過半数の回答者はクロス言語合成が必要だと答えました。",
+                        subName: "クロス言語合成が必要ですか。",
                         paragraphs: [
-                            "The majority of respondents, 57, said that cross-lingual synthesis is necessary, while the remaining 34 respondents said that it is not."
+                            "クロス言語合成技術が必要だと答えた回答者は57人で過半数を占め、残りの34人の回答者は必須ではないと答えました。"
                         ],
                         chartId: "chart26",
                     },
                     {
-                        name: "Reason of necessity",
-                        overall: "Most respondents said they need cross-lingual synthesis technology to create content in multiple languages.",
-                        subName: "Why the feature is needed?",
+                        name: "必要な理由",
+                        overall: "ほとんどの回答者はさまざまな言語でコンテンツを作るためにクロス言語合成技術が必要だと答えました。",
+                        subName: "その技術が必要な理由",
                         paragraphs: [
-                            "23 respondents cited the ability to use multiple languages for singing.",
-                            "Next, creating multilingual content at a lower cost and capitalizing on the expressive power of languages were each selected by 15 respondents.",
-                            "However, the second highest number of respondents, 17, said they didn't think it was necessary."
+                            "23人の回答者は多様な言語を歌唱に使用できると答えました。",
+                            "少ない費用で多言語コンテンツの生産と言語特有の表現力を活用できるが、それぞれ回答者15人の選択を受けました。",
+                            "しかし、必要ではないと思う回答は17人で2番目に高い数値でした。"
                         ],
                         chartId: "chart27",
                     },
                     {
-                        name: "Open-sourcing of cross-lingual synthesis",
-                        overall: "Most respondents were in favor of open-sourcing cross-lingual synthesis technology.",
-                        subName: "Opinions of open-sourcing cross-language synthesis",
+                        name: "クロス言語合成のオープンソース化",
+                        overall: "ほとんどの回答者は、クロス言語合成技術のオープンソース化に肯定的な意思を明らかにしました。",
+                        subName: "クロス言語合成のオープンソース化についての意見",
                         paragraphs: [
-                            "84 respondents said it would be good to have, and 12 respondents said it would be fine without.",
+                            "84人の回答者はいればいいようだと答え、残りの12人の回答者はいなくてもいいと答えました。",
                         ],
                         chartId: "chart28",
                     },
                 ]
             },
             {
-                name: "Survey feedback",
+                name: "アンケートのフィードバック",
                 paragraphs: [
-                    "Let's talk about the feedback of the survey."
+                    "アンケートのフィードバックについて学びましょう。"
                 ],
                 subSection: [
                     {
-                        name: "Engagement routes",
-                        overall: "The survey engagement routes for respondents are as follows.",
+                        name: "参加ルート",
+                        overall: "回答者のアンケート参加経路は次のとおりです。",
                         subName: "",
                         paragraphs: [
                             ""
@@ -1998,8 +1998,8 @@ const strings = {
                         chartId: "chart29",
                     },
                     {
-                        name: "Sections that need improvement",
-                        overall: "Thankfully, 59 respondents said no improvements were needed, but the remaining items all received a balanced amount of votes, suggesting that there is an overall design mistake.",
+                        name: "改善が必要なセクション",
+                        overall: "感謝して59人の回答者は改善を必要ではないと答えましたが、残りの項目がすべてバランスのとれた割合を占めているように見え、全体的な設計ミスがあるようです。",
                         subName: "",
                         paragraphs: [
                             ""
@@ -2007,40 +2007,40 @@ const strings = {
                         chartId: "chart30",
                     },
                     {
-                        name: "Detailed improvement",
-                        overall: "The messages below are a list of comments about improvements needed to the questionnaire.",
-                        subName: "What is lacking in the questionnaire?",
+                        name: "詳細な改善点",
+                        overall: "以下は、アンケートに必要な改善点についてのコメントのリストです。",
+                        subName: "このアンケートの欠如は何ですか。",
                         paragraphs: [
-                            "I think it's better to structure the question with a little more detail.",
-                            "I don't know what cross lingual is",
-                            "A lot of software doesn't support macOS.",
-                            "Some questions, such as the reason question, would be better with multiple choices rather than a single answer.",
-                            "Improvements in ambiguous English expressions",
-                            "Include questions that discuss vocal type, style, or genre",
-                            "I felt a little difficult answering some of the questions.",
-                            "Section 2 (Non-user) is not about speech synthesis.",
-                            "Consider getting someone to proofread and edit your English for clarity.",
-                            "Nothing is ever perfect",
-                            "The questions are phrased weirdly",
-                            "Consider including \"not applicable\" or \"don't know\" options for more questions.",
-                            "Questions shoud be dependent on the previous answers."
+                            "質問をもう少し詳しくまとめると良いと思います。",
+                            "クロス言語が何か分かりません。",
+                            "多くのソフトウェアが macOS をサポートしていません。",
+                            "理由を聞く質問など一部の質問は、単回答より複数の選択肢が優れているのがいいと思います。",
+                            "あいまいな英語表現の改善",
+                            "ボーカルの種類、スタイル、ジャンルに関する質問も含めてください。",
+                            "いくつかの質問に答えるのが少し難しいでした。",
+                            "セクション2（非ユーザー）は音声合成に関する質問ではありません。",
+                            "わかりやすくするために、誰かに英語を修正して編集してもらうことを頼んでください。",
+                            "何も完璧なことはない。",
+                            "質問の文章がおかしい。",
+                            "その他の質問については、「該当なし」または「不明」オプションを含めることを検討してください。",
+                            "質問は以前の回答に頼る必要があります。"
                         ],
                         chartId: ""
                     },
                     {
-                        name: "Other",
-                        overall: "The messages below are other things you'd like to see improved, or things you'd like to say to the researcher.",
-                        subName: "And then...",
+                        name: "その他",
+                        overall: "以下のメッセージは、改善されたいと思う他のことや研究者に言いたいことです。",
+                        subName: "えーと...",
                         paragraphs: [
-                            "It would be nice if there were AI text-to-speech software and requirements that can be used freely by the general public in Korea, like CeVIO AI.",
-                            "Good luck with your project!",
-                            "A well-structured tutorial would be useful for new users.",
-                            "Merry Christmas!",
-                            "It would be nice to be able to talk/rap with speech synthesis.",
-                            "I hope you're making good progress on this.",
-                            "Vocaloid synthesis is too slow. But it would be great to see a noticeable improvement.",
-                            "I'm looking forward to seeing results that can be published in the future, either in closed source development or in the form of a paper.",
-                            "In my opinion, a singing synth where you have a lot of control and can create and customize your own singer is cooler.",
+                            "韓国にもCeVIO AIのように一般人も自由に使えるAIテキスト音声変換ソフトウェアと要件があれば良いようです。",
+                            "プロジェクトが良くなるように。",
+                            "よく書かれたチュートリアルがあれば、新しいユーザーに役立つと思います。",
+                            "メリークリスマス！",
+                            "音声合成で会話/ラップができればいいようです。",
+                            "この部分に良い進歩がありますように。",
+                            "ボーカロイド合成が遅すぎます。しかし、著しく改善すれば良いと思います。",
+                            "今後クローズドソース開発や論文の形で発表できる結果が出ることを期待します。",
+                            "私の考えには、多くの制御権を持って自分だけの歌手を作ってカスタマイズすることができる歌唱合成ソフトウェアがもっと素敵だと思います。",
                         ],
                         chartId: ""
                     }
@@ -2048,28 +2048,28 @@ const strings = {
             },
         ],
         footer: {
-            h1: "Thank you for reading!",
-            h2: "Translation by:",
+            h1: "読んでくれてありがとう。",
+            h2: "翻訳者：キューティージニー",
             authors: [
                 "crlotwhite"
             ],
-            p: "If you would like to add new translations or report translation issues, please create an issue or PR in the GitHub repository below."
+            p: "新しい翻訳を追加するか、翻訳の問題を報告するには以下のGitHubリポジトリからまたはPRを作成してください。"
         },
         chart: {
             common: {
-                label: "The number of responses",
+                label: "回答数",
             },
             chart1: {
-                question: "What is your sex?",
+                question: "あなたの性別は何ですか。",
                 labels: [
-                    "Male",
-                    "Female",
-                    "Other",
-                    "I don't want to reveal my gender."
+                    "男性",
+                    "女性",
+                    "その他",
+                    "性別を明らかにしたくない。"
                 ]
             },
             chart2: {
-                question: "What is your favorite singing voice synthesis software? (Up to 3)",
+                question: "好きな歌唱合成エンジンは何ですか？ （三つまで）",
                 labels: [
                     "Vocaloid",
                     "CeVIO/CeVIO AI/VoiSona",
@@ -2084,105 +2084,105 @@ const strings = {
                 ]
             },
             chart3: {
-                question: "How did you know that?",
+                question: "どのように触れましたか。",
                 labels: [
-                    "Recommendation Algorithm for Video Platform (e.g. Youtube, NicoNico, bilibili, etc.)",
-                    "Search the Internet",
-                    "Refer a friend",
-                    "Content in the game (background music, etc.)",
-                    "Social media post (e.g. Facebook, Twitter, Instagram, etc.)",
-                    "Others"
+                    "動画プラットフォームの推奨アルゴリズム（Youtube、NicoNico、bilibiliなど）。",
+                    "インターネット検索",
+                    "友達の紹介",
+                    "ゲームの中のコンテンツ（背景音楽など）",
+                    "ソーシャルメディア（Facebook、Twitter、Instagramなど）",
+                    "その他"
                 ]
             },
             chart4: {
-                question: "What is your favorite type of the content? (Up to 2)",
+                question: "最も好きなコンテンツタイプは何ですか。（2つまで）",
                 labels: [
-                    "Songs (original, cover songs, etc.)",
-                    "Vocal cover (Utaite, etc.)",
-                    "Media mix (music-based original content; Kagerou Project, etc.)",
-                    "Doujin Manga (Hatsune Mix, etc.)",
-                    "3D animation (MMD, etc.)",
-                    "Games (Project Diva Series, etc.)",
-                    "Others",
+                    "歌（オリジナル、カバー曲など）",
+                    "ボーカルカバー（Utaiteなど)",
+                    "メディアミックス（楽曲ベースのオリジナルコンテンツ；カゲロウプロジェクトなど）",
+                    "同人漫画（初音ミックスなど）",
+                    "3Dアニメーション（MMDなど）",
+                    "ゲーム（プロジェクト歌姫シリーズなど）",
+                    "その他",
                 ]
             },
             chart5: {
-                question: "How long have you been exposed to that content?",
+                question: "そのコンテンツに触れた期間はどれくらいですか。",
                 labels: [
-                    "Less than a year",
-                    "1-3 years",
-                    "4-6 years",
-                    "7-9 years",
-                    "Over 10 years"
+                    "1年未満",
+                    "年～3年",
+                    "4年～6年",
+                    "7年～9年",
+                    "10年以上"
                 ]
             },
             chart6: {
-                question: "Why do you like that?",
+                question: "そのコンテンツが好きな理由は何ですか。",
                 labels: [
-                    "Attractive characters",
-                    "Timbre of the voice",
-                    "Interest in the type of content itself (such as 3D animation)",
-                    "An interest in the technology",
-                    "Others",
+                    "魅力的なキャラクター",
+                    "該当音声の音色",
+                    "該当コンテンツタイプ自体に対する興味（3Dアニメーなど）",
+                    "該当技術への関心",
+                    "その他",
                 ]
             },
             chart7: {
-                question: "Did you ever tried using a singing voice synthesis software?",
+                question: "歌唱合成エンジンを使った経験がありますか。",
                 labels: [
-                    "Yes",
-                    "No"
+                    "はい",
+                    "いいえ"
                 ]
             },
             chart8: {
-                question: "Why did not you use that?",
+                question: "使用できなかった理由は何ですか。",
                 labels: [
-                    "Expensive software cost",
-                    "Need musical knowledge",
-                    "Not interested enough to use",
-                    "Out of Stock"
+                    "高価なソフトウェアコスト",
+                    "音楽的知識の必要性",
+                    "使用するほど興味がない",
+                    "在庫なし"
                 ]
             },
             chart9: {
-                question: "What improvements are needed for popularization?",
+                question: "その普及に必要な改善点は何だと思いますか。",
                 labels: [
-                    "More intuitive usability (available without musical knowledge)",
-                    "Actively promote contents",
-                    "A lower price",
-                    "Additional stock"
+                    "より直感的な使いやすさ（音楽的な知識なしで利用可能）",
+                    "コンテンツに対する積極的な広報",
+                    "より安い価格",
+                    "追加在庫"
                 ]
             },
             chart10: {
-                question: "How long have you experienced the singing voice synthesis software?",
+                question: "歌唱合成ソフトウェアをどれくらい使用しましたか。",
                 labels: [
-                    "Less than a year",
-                    "1-3 years",
-                    "4-6 years",
-                    "7-9 years",
-                    "Over 10 years"
+                    "1年未満",
+                    "1年～3年",
+                    "4年～6年",
+                    "7年～9年",
+                    "10年以上"
                 ]
             },
             chart11: {
-                question: "How did you learn that?",
+                question: "歌唱合成エンジンをどのように学びましたか。",
                 labels: [
-                    "Through the mentors",
-                    "Through the official manual",
-                    "Through the musical knowledge that you already have",
-                    "Through online video lectures",
-                    "Through trying to use that",
-                    "Through the internet post"
+                    "まず使った師匠を通して",
+                    "公式マニュアルを通して",
+                    "すでに持っている音楽的知識を通して",
+                    "オンラインビデオ講義を通して",
+                    "直接使ってみながら",
+                    "インターネット投稿を通じて"
                 ]
             },
             chart12: {
-                question: "What is your level of use the software?",
+                question: "歌唱合成エンジンの使用レベルはどうなりますか",
                 labels: [
-                    "Beginner",
-                    "Intermediate",
-                    "Advanced",
-                    "Expert",
+                    "初級",
+                    "中級",
+                    "高級",
+                    "専門家",
                 ]
             },
             chart13: {
-                question: "What singing voice synthesis software do you mainly use? (Up to 3)",
+                question: "主に使用する歌唱合成エンジンとは何ですか。 （3つまで）",
                 labels: [
                     "Vocaloid",
                     "CeVIO/CeVIO AI/VoiSona",
@@ -2194,47 +2194,47 @@ const strings = {
                     "DeepVocal",
                     "Piapro Studio NT",
                     "ACE Studio",
-                    "Others",
+                    "その他",
                 ]
             },
             chart14: {
-                question: "What is your major operating system?",
+                question: "ご使用のオペレーティングシステムは何ですか。",
                 labels: [
                     "Windows 10/11",
-                    "Other Windows",
+                    "別の Windows",
                     "Linux (Ubuntu, Fedora, e.t.c)",
                     "macOS/iOS/iPadOs",
                 ]
             },
             chart15: {
-                question: "What is the main reason for using that?",
+                question: "それを使用する主な理由は何ですか",
                 labels: [
-                    "Like the character or the voice",
-                    "Easy to use",
-                    "Easy to integrate with DAW",
-                    "Great built-in effect",
-                    "Nice synthesis quality",
-                    "My favorite artist used that",
-                    "It is free",
-                    "Others"
+                    "キャラクターや声が気に入って",
+                    "使いやすい",
+                    "DAWとの連携が楽で",
+                    "与えられた内蔵エフェクトが素晴らしいから",
+                    "合成品質が良くて",
+                    "好きなアーティストが使って",
+                    "無料だから",
+                    "その他"
                 ]
             },
             chart16: {
-                question: "What are the inconveniences of the software you used? (Up to 3)",
+                question: "使用するソフトウェアの不便は何ですか。 （3つまで）",
                 labels: [
-                    "Complex parameters",
-                    "Complex sound source settings (UTAU, DeepVocal, etc.)",
-                    "Too expensive cost",
-                    "Restriction of use environment (e.g. Windows operating systems only)",
-                    "Does not support native language",
-                    "No related communities",
-                    "High technical requirements (hardware specifications)",
-                    "Internet connection required",
-                    "Others"
+                    "複雑なパラメータ",
+                    "複雑な音源設定(UTAU, DeepVocalなど)",
+                    "高価",
+                    "使用環境制約（Windowsオペレーティングシステムのみ使用可能など）",
+                    "母国語をサポートしていない",
+                    "関連コミュニティなし",
+                    "技術的な要件が高い（ハードウェア仕様）",
+                    "インターネット接続必須",
+                    "その他"
                 ]
             },
             chart17: {
-                question: "Are there any additional singing voice synthesis software that you would like to use or are interested in?",
+                question: "追加として使用したい、または興味を持っている歌唱合成エンジンはありますか。",
                 labels: [
                     "Vocaloid",
                     "CeVIO/CeVIO AI/VoiSona",
@@ -2244,134 +2244,134 @@ const strings = {
                     "DeepVocal",
                     "Piapro Studio NT",
                     "ACE Studio",
-                    "No intention of using another software",
-                    "Others",
+                    "他のエンジンを使うつもりはない",
+                    "その他",
                 ]
             },
             chart18: {
-                question: "Why would you want to use that?",
+                question: "それを使う理由は何ですか。",
                 labels: [
-                    "Better voice synthesis quality",
-                    "Same character released on different engines",
-                    "Want to try a new engine",
-                    "More convenient than the previous engine",
-                    "Used by a collaborator",
-                    "Want to use engine's own character",
-                    "Others",
+                    "より良い音声合成品質",
+                    "同じキャラクターが別のエンジンで発売される",
+                    "新しいエンジンを試してみたい",
+                    "従来に使用していたエンジンより便利だから",
+                    "協力者が使っているエンジンなので",
+                    "あのエンジンだけのキャラクターを使いたくて",
+                    "その他",
                 ]
             },
             chart19: {
-                question: "What do you think of AI technology in the software?",
+                question: "歌唱合成エンジンにおけるAI技術についてどう思いますか。",
                 labels: [
-                    "The technology's development is expected.",
-                    "I worry about having to learn new techniques.",
-                    "Getting started would be better.",
-                    "I'm worried that decrease the value of my result.",
-                    "Others",
+                    "当該技術の発展が期待される。",
+                    "新しい技術を学ばなければならないことを心配する。",
+                    "入門するほうが良くなる。",
+                    "自分の成果物の価値が落ちるか心配になる。",
+                    "その他",
                 ]
             },
             chart20: {
-                question: "Have you ever used a singing voice synthesis with AI technology?",
+                question: "AI技術を使った歌唱合成システムを使った経験がありますか。",
                 labels: [
-                    "Yes",
-                    "No"
+                    "はい",
+                    "いいえ"
                 ]
             },
             chart21: {
-                question: "What is the biggest advantage of the software that uses AI technology?",
+                question: "AI技術を使用したエンジンの最大の利点は何だと思いますか。",
                 labels: [
-                    "Synthesis quality increased",
-                    "Great quality results with less effort",
-                    "Easier to use",
-                    "Various expressions are possible",
-                    "Pronunciation becomes clear",
-                    "Others",
+                    "歌唱合成品質が上がった",
+                    "少ない努力で優れたクオリティの結果を生み出す",
+                    "使いやすい",
+                    "様々な表現が可能になる",
+                    "発音が明確になる",
+                    "その他",
                 ]
             },
             chart22: {
-                question: "What is the biggest disadvantage of the software that uses AI technology?",
+                question: "AI技術を使用したエンジンの最大の欠点は何だと思いますか。",
                 labels: [
-                    "Increased purchase costs",
-                    "Increased hardware specifications",
-                    "Pronunciation adjustment not applied",
-                    "Occurrence of subtle noise",
-                    "Synthesis takes a long time",
-                    "I don't know",
-                    "Others",
+                    "購入費用が増加しました。",
+                    "ハードウェア仕様が高まる。",
+                    "発音調整が良くない。",
+                    "微妙なノイズが発生する。",
+                    "合成に時間がかかる。",
+                    "よく分からない",
+                    "その他",
                 ]
             },
             chart23: {
-                question: "Have you ever tried the Cross-lingual synthesis feature?",
+                question: "クロス言語合成（Cross-lingual Synthesis）を使った経験はありますか。",
                 labels: [
-                    "Yes",
-                    "No"
+                    "はい",
+                    "いいえ"
                 ]
             },
             chart24: {
-                question: "What do you think about the quality of  the Cross-lingual synthesis feature?",
+                question: "クロス言語合成（Cross-lingual Synthesis）の品質はどの程度だと思いますか。",
                 labels: [
-                    "It's still not good.",
-                    "I don't really know.",
-                    "There is a lot of progress.",
-                    "It close to human.",
+                    "まだ良くない。",
+                    "特に分からない。",
+                    "多くの発展が見られる。",
+                    "人間に近づいた。",
                 ]
             },
             chart25: {
-                question: "What is lacking in the Cross-lingual synthesis feature?",
+                question: "クロス言語合成（Cross-lingual Synthesis）で不足していると感じる点は何ですか。",
                 labels: [
-                    "Still unnatural pronunciation",
-                    "Only certain software can be used",
-                    "Few supported languages",
-                    "I don't know",
-                    "Others",
+                    "まだ不自然な発音",
+                    "特定のソフトウェアのみ使用可能",
+                    "サポートされる言語が少ない",
+                    "よく分からない",
+                    "その他",
                 ]
             },
             chart26: {
-                question: "Do you think the Cross-lingual synthesis is essential?",
+                question: "クロス言語合成（Cross-lingual Synthesis）が歌唱合成エンジンに必ず必要だと思いますか。",
                 labels: [
-                    "Yes",
-                    "No"
+                    "はい",
+                    "いいえ"
                 ]
             },
             chart27: {
-                question: "If that is important, why?",
+                question: "必要だと思ったら、その理由は何ですか。",
                 labels: [
-                    "A variety of languages are available",
-                    "Multilingual contents can be produced at low cost.",
-                    "It can express the unique style of the language.",
-                    "I think that it is not essential.",
-                    "Others",
+                    "さまざまな言語を使用できます。",
+                    "少ない費用で多言語コンテンツを生成できます。",
+                    "その言語特有の表現力を活かすことができます。",
+                    "要らないと思います。",
+                    "その他",
                 ]
             },
             chart28: {
-                question: "What do you think about open-sourcing the technology?",
+                question: "この技術のオープンソース化についてどう思いますか。",
                 labels: [
-                    "It would be nice",
-                    "It does not matter"
+                    "あればいいと思います。",
+                    "無くてもいいです。"
                 ]
             },
             chart29: {
-                question: "Which community did you participate in?",
+                question: "どのコミュニティを通じて参加しましたか。",
                 labels: [
                     "Discord",
                     "Utau forum",
-                    "보컬로이드 제국",
+                    "ボーカロイド帝国",
                     "Vocaloid Animo",
-                    "우타우 사용자 모임",
+                    "UTAUユーザーの会",
                     "Synthesizer V Forum",
                     "Twitter",
-                    "딥보컬 연구소",
+                    "ディープボーカル研究所",
                     "reddit"
                 ]
             },
             chart30: {
-                question: "What Section does you think need improvement?",
+                question: "改善が必要なセクションは何だと思いますか。",
                 labels: [
                     "1. User Trends",
                     "2. Non singing voice synthesis software user",
                     "3. Experience with singing voice synthesis software",
                     "4. AI (Artificial Intelligent) Singing Voice Synthesis",
-                    "No section for improvement",
+                    "改善が必要なセクションは要らない。",
                 ]
             },
         },
@@ -2387,54 +2387,54 @@ const strings = {
             ],
             subSection: {
                 s1: [
-                    "Gender",
-                    "Favourite software",
-                    "Introduction",
-                    "Favorite content",
-                    "Duration",
-                    "Reason",
-                    "Experience"
+                    "性別",
+                    "最も好きなソフトウェア",
+                    "入門ルート",
+                    "最も好むコンテンツ",
+                    "期間",
+                    "理由",
+                    "プログラム使用経験"
                 ],
                 s2: [
-                    "Difficulty",
-                    "Improvement"
+                    "難しさ",
+                    "改善事項"
                 ],
                 s3: [
-                    "Work Experience",
-                    "Learning",
-                    "Proficiency",
-                    "Most Using Software",
+                    "使用キャリア",
+                    "学習方法",
+                    "プロフェッショナル",
+                    "よく使うプログラム",
                     "Operation System",
-                    "Advantages",
-                    "Inconvenience",
-                    "Additional Software",
-                    "Reason"
+                    "利点",
+                    "不快な点",
+                    "追加として使用するプログラム",
+                    "理由"
                 ],
                 s4: [
-                    "Opinion (AI)",
-                    "Experience (AI)",
-                    "Advantages (AI)",
-                    "Disadvantages (AI)",
-                    "Experience (CL)",
-                    "Quality (CL)",
-                    "Lack (CL)",
-                    "Necessity (CL)",
-                    "Reason (CL)",
-                    "Open-sourcing (CL)"
+                    "意見 (AI)",
+                    "経験 (AI)",
+                    "利点 (AI)",
+                    "不快な点 (AI)",
+                    "経験 (CL)",
+                    "品質 (CL)",
+                    "不足点 (CL)",
+                    "必要性 (CL)",
+                    "理由 (CL)",
+                    "オープンソース化 (CL)"
                 ],
                 s5: [
-                    "Engagement routes",
-                    "Sections needing improvement",
-                    "Detailed improvement",
-                    "Other"
+                    "参加ルート",
+                    "改善が必要なセクション",
+                    "詳細な改善",
+                    "その他"
                 ]
             },
             language: {
-                name: "Language",
+                name: "言語設定",
                 langName: [
-                    "English",
-                    "Korean",
-                    "Japanese"
+                    "英語",
+                    "韓国語",
+                    "日本語"
                 ],
             }
         }
