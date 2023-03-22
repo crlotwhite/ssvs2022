@@ -808,7 +808,6 @@ const strings = {
                 langName: [
                     "English",
                     "Korean",
-                    "Japanese"
                 ],
             }
         }
@@ -1620,7 +1619,6 @@ const strings = {
                 langName: [
                     "영어",
                     "한국어",
-                    "일본어"
                 ],
             }
         }
