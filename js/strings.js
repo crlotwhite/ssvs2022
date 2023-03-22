@@ -1857,8 +1857,7 @@ const strings = {
                         subName: "今後使う予定のプログラム",
                         paragraphs: [
                             "CeVIOとボーカロイドがそれぞれ22人、21人と最も多く考慮されており、Synthesizer Vの使用を検討したり、他のツールを追加使う予定がないという回答者がそれぞれ10人で次に多いんでした。",
-                            "また、NNSVSやPiapro Studio NT、そしてUTAUを検討している回答者がそれぞれ7人と6人、5人で意味のある数値を見せてくれました。",
-                            "Moreover, there are significant numbers of respondents considering NNSVS, Piapro Studio NT, and UTAU, with 7, 6, and 5 respectively."
+                            "また、NNSVSやPiapro Studio NT、そしてUTAUを検討している回答者がそれぞれ7人と6人、5人で意味のある数値を見せてくれました。"
                         ],
                         chartId: "chart17",
                     },
@@ -1902,7 +1901,7 @@ const strings = {
                     },
                     {
                         name: "AI技術の利点",
-                        overall: "AI技術が与える最大の利点は歌唱合成品質の向上です。",
+                        overall: "AI技術が与える最大の利点は歌声合成品質の向上です。",
                         subName: "AI技術が与える有益な点",
                         paragraphs: [
                             "31人の回答者が合成品質の向上を最大のメリットとして挙げた。30人の回答者が少ない労力で優れたクオリティを見せるのができることを利点として述べました。",
@@ -1981,7 +1980,7 @@ const strings = {
                 ]
             },
             {
-                name: "アンケートのフィードバック",
+                name: "Survey Feedback",
                 paragraphs: [
                     "アンケートのフィードバックについて学びましょう。"
                 ],
